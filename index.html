@@ -788,7 +788,7 @@ function generateBibTeX(a) {
   const year = a.year || '2026';
   const key = first_author + year;
   const authors_bib = (a.authors||[]).map(au => au.name || '').join(' and ');
-  let bib = '@article{' + key + ',\n';
+  let bib = '@article{' + key + ', \n';
   bib += 'author = {' + authors_bib + '},\n';
   bib += 'title = {' + (a.title || '') + '},\n';
   bib += 'year = {' + year + '},\n';
@@ -798,7 +798,7 @@ function generateBibTeX(a) {
   if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\n';
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\n';
   if (a.doi) {
-    bib += 'url = {' + (a.doi_url || 'https://www.sciopen.com/article/' + a.doi) + '},\n';
+    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\n';
     bib += 'doi = {' + a.doi + '},\n';
   }
   if (a.abstract) bib += 'abstract = {' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() + '},\n';
