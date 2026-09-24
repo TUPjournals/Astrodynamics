@@ -761,7 +761,9 @@ function downloadRIS(idx) {
   if (a.doi) ris.push('UR  - ' + (a.doi_url || 'https://www.sciopen.com/article/' + a.doi));
   if (a.doi) ris.push('DO  - ' + a.doi);
   const fn = (a.doi||'ASTRO').replace(/[/\\]/g,'_') + '.ris';
-  download(ris.join('\r\n') + '\r\n', fn, 'application/x-research-info-systems;charset=utf-8;');
+  download(ris.join('\r
+') + '\r
+', fn, 'application/x-research-info-systems;charset=utf-8;');
 }
 
 /* ── Download helper ── */
@@ -804,29 +806,40 @@ function generateBibTeX(a) {
   if (a.abstract) bib += 'abstract = {' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() + '},' + String.fromCharCode(13) + String.fromCharCode(10);
   bib += '}';
 },
-\n';
+
+';
   bib += 'title = {' + (a.title || '') + '},
-\n';
+
+';
   bib += 'year = {' + year + '},
-\n';
+
+';
   bib += 'journal = {Astrodynamics},
-\n';
+
+';
   if (a.volume) bib += 'volume = {' + a.volume + '},
-\n';
+
+';
   if (a.issue) bib += 'number = {' + a.issue + '},
-\n';
+
+';
   if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},
-\n';
+
+';
   if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},
-\n';
+
+';
   if (a.doi) {
     bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},
-\n';
+
+';
     bib += 'doi = {' + a.doi + '},
-\n';
+
+';
   }
   if (a.abstract) bib += 'abstract = {' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() + '},
-\n';
+
+';
   bib += '}';
   return bib;
 }
