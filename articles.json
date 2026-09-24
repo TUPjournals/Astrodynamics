@@ -1,0 +1,3031 @@
+[
+  {
+    "doi": "10.1007/s42064-024-0215-7",
+    "title": "Mechanism analysis of the DRO low-energy transfer problem: An energy perspective",
+    "authors": [
+      {
+        "name": "Ming Wang"
+      },
+      {
+        "name": "Chen Zhang"
+      },
+      {
+        "name": "Hao Zhang"
+      }
+    ],
+    "affiliations": [
+      " University of Chinese Academy of Sciences,Xi’an Modern Control Technology Research Institution,Xi'an,Shanxi,CHINA. Key Laboratory of Space Utilization,CHINA. Technology and Engineering Center for Space Utilization,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Key Laboratory of Space Utilization,CHINA. Technology and Engineering Center for Space Utilization,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      " University of Chinese Academy of Sciences,Key Laboratory of Space Utilization,CHINA. Technology and Engineering Center for Space Utilization,CHINA. Chinese Academy of Sciences, 100101,CHINA. "
+    ],
+    "keywords": [
+      "distant retrograde orbit (DRO)",
+      "weak stability boundary (WSB) transfer",
+      "lunar gravity assist (LGA)",
+      "transfer mechanism analysis"
+    ],
+    "abstract": "The 2:1 resonant distant retrograde orbit (DRO), known for its long-term stability and global accessibility, holds strategic significance in current Earth–Moon space mission explorations. This paper conducts a comprehensive analysis of the problem of low-energy transferring into 2:1 DRO using the weak stability boundary (WSB) and lunar gravity assist (LGA) in the planar bi-circular restricted four-body problem (BCR4BP). The transfer process is categorized into three phases: the Earth–Moon transfer, Sun–Earth weak stability boundary transfer, and DRO low-energy capture. Addressing key questions, our study investigates: (1) Under what LGA conditions can the spacecraft reach the approximate area where the WSB region is situated? (2) How do trajectories, upon reaching the region where the WSB is located, return to the vicinity of 2:1 DRO, potentially facilitating low-energy DRO insertion? Our study involved a comprehensive analysis of the spacecraft's changes in Earth–Moon mechanical energy and Jacobi energy during the entire transfer process. This analysis yielded the energy and geometric conditions necessary for potential low-energy DRO insertion, effectively filtering out numerous impractical candidate trajectories and enhancing computational efficiency. In this paper, the geometric condition is referred to as the low-energy transfer gateway (LETG). Using the LEGT as the stitching interface, a significant number of feasible solutions were obtained effectively for bi-impulse DRO transfer trajectories through differential correction, some of which were previously undiscovered.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "165",
+    "lastpage": "193",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/5/7",
+    "received": "15 January 2024",
+    "revised": "",
+    "accepted": "18 April 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0215-7",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0215-7.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Space Systems and Engineering",
+      "Attitude Determination and Space Manipulation"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0208-6",
+    "title": "Fast trajectory replanning for cooperative vehicles using sequential convex programming",
+    "authors": [
+      {
+        "name": "Peng Zhang"
+      },
+      {
+        "name": "Lin Cheng"
+      },
+      {
+        "name": "Shengping Gong"
+      }
+    ],
+    "affiliations": [
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Astronautics,  Beihang University,",
+      "School of Astronautics,  Beihang University,"
+    ],
+    "keywords": [
+      "cooperative missiles",
+      "midcourse trajectory replanning",
+      "max terminal velocity",
+      "sequential convex programming (SCP)"
+    ],
+    "abstract": "With the rapid changes of the flight environment and situation, there will be various unexpected situations while multiple missiles are performing the missions. To fast cope with the various situations in mission executions, the conventional sequential convex programming algorithm and the parallel-based sequential convex programming algorithm for multiple missiles fast trajectory replanning are proposed in this paper. The originally non-convex trajectory optimization problem is reformulated into a series of convex optimization subproblems based on the sequential convex programming method. The conventional sequential convex programming algorithm is developed through linearization, successive convexification, and relaxation techniques to solve the convex optimization subproblems iteratively. However, multiple missiles are related through various cooperative constraints. When the trajectory optimization of multiple missiles is formulated as an optimal control problem to solve, the complexity of the problem will increase dramatically as the number of missiles increases. To alleviate the coupled effect caused by multiple aerodynamically controlled missiles, the parallel-based sequential convex programming algorithm is proposed to solve the trajectory optimization problem for multiple missiles in parallel, reducing the complexity of the trajectory optimization problem and significantly shortening the computation time. Numerical simulations are provided to verify the convergence and effectiveness of the conventional sequential convex programming algorithm and the parallel-based sequential convex programming algorithm to cope with the trajectory optimization problem with various constraints. Furthermore, the optimality and the real-time performance of the proposed algorithms are discussed in comparative simulation examples.",
+    "volume": 9,
+    "issue": 3,
+    "firstpage": "369",
+    "lastpage": "388",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/7/16",
+    "received": "03 January 2024",
+    "revised": "",
+    "accepted": "03 March 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0208-6",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0208-6.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0223-7",
+    "title": "GTOC12: Results from the OptimiCS team",
+    "authors": [
+      {
+        "name": "Sébastien Goulet"
+      },
+      {
+        "name": "Vincent Debout"
+      },
+      {
+        "name": "Patrice Mathieu"
+      },
+      {
+        "name": "Vincent Cucchietti"
+      },
+      {
+        "name": "Maxime Journot"
+      },
+      {
+        "name": "Julien Asquier"
+      },
+      {
+        "name": "Romain Garmier"
+      },
+      {
+        "name": "Laurène Beauvalet"
+      },
+      {
+        "name": "Thierry Ceolin"
+      },
+      {
+        "name": "Laurent Chausson"
+      },
+      {
+        "name": "Pascal Parraud"
+      }
+    ],
+    "affiliations": [
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. ",
+      "Flight Dynamics Team,FRANCE. CS Group,FRANCE. "
+    ],
+    "keywords": [
+      "GTOC",
+      "trajectory optimization",
+      "low-thrust",
+      "delta-V approximation",
+      "asteroid sequence",
+      "beam search",
+      "tabu iterations"
+    ],
+    "abstract": "Establishing a sustainable mining expedition for the asteroids of the main belt over the 2035–2050 horizon is the visionary problem of the 12th Global Trajectory Optimisation Competition. A fleet of mining ships must rendezvous twice with asteroids to deploy miners and collect minerals. In this paper, we describe the approach of the CS Group team, OptimiCS, to solve this challenging problem. We present the symmetrical construction of upstream and downstream semi-sequences of asteroids, maximizing the mining time expectancy via a beam search with tabu iterations, and the composition of these semi-sequences into complete fleet routes, maximizing the total collected mass via simulated annealing. While representative Earth–asteroid legs are precomputed, the delta-V costs of the asteroid-to-asteroid hops composing the sequences are initially approximated during exploration via a method that refines the accuracy of the maximum initial mass. The resulting high-fidelity trajectories are adjusted and optimized via a direct method and nonlinear programming.",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "77",
+    "lastpage": "88",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "07 February 2024",
+    "revised": "",
+    "accepted": "26 May 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0223-7",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0223-7.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Mission Analysis and Constellation Design",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0250-4",
+    "title": "Leveraging the Hill restricted four-body problem to investigate the ephemeris transition characteristics in the Earth–Moon L2 halo orbit region",
+    "authors": [
+      {
+        "name": "Rohith Reddy Sanaga"
+      },
+      {
+        "name": "Kathleen C. Howell"
+      }
+    ],
+    "affiliations": [
+      "School of Aeronautics and Astronautics,Purdue University, 47907,",
+      "School of Aeronautics and Astronautics,Purdue University, 47907,"
+    ],
+    "keywords": [
+      "Earth–Moon L2 halo family",
+      "Hill restricted four-body problem (HR4BP)",
+      "bifurcations",
+      "ephemeris transition"
+    ],
+    "abstract": "The Earth–Moon L1, L2 halo orbit families support a variety of options for lunar surface activities as well as other developments in the cislunar region. The planned operational orbit for NASA’s Gateway is the 9:2 L2 synodic resonant halo orbit. Furthermore, orbits from this family could serve as staging locations for future missions to near-Earth asteroids and Mars, hubs for servicing logistics, and nodes for sensor networks. Therefore, it is essential to understand the dynamics that govern the halo orbit regions. Previously, a sub-region in the L2 halo family of the Earth–Moon system, termed the “Interface Region” was identified to be particularly challenging when transitioning the solutions from this L2 halo family sub-region to the Higher-Fidelity Ephemeris model (HFEM). Recent research suggests that the intermediate models incorporating pulsation in the Earth–Moon motion offer more insight into the dynamics governing this general underlying flow. This investigation aims to characterize the interface region by understanding the dynamical structures via the Hill Restricted Four-Body Problem (HR4BP).",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "785",
+    "lastpage": "805",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "18 June 2024",
+    "revised": "",
+    "accepted": "31 October 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0250-4",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-024-0250-4.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Mission Analysis and Constellation Design",
+      "Attitude Determination and Space Manipulation"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0214-8",
+    "title": "Model predictive control for formation flying based on D'Amico relative orbital elements",
+    "authors": [
+      {
+        "name": "Tyson K. Smith"
+      },
+      {
+        "name": "John Akagi"
+      },
+      {
+        "name": "Greg Droge"
+      }
+    ],
+    "affiliations": [
+      "Space Dynamics Laboratory,UNITED STATES. ",
+      "Space Dynamics Laboratory,UNITED STATES. ",
+      "Electrical and Computer Engineer Department,Utah State University, Utah 84322,"
+    ],
+    "keywords": [
+      "formation flying",
+      "model predictive control (MPC)",
+      "relative orbital elements (ROEs)",
+      "switching surfaces"
+    ],
+    "abstract": "The desire to fly small spacecraft close together has been a topic of increasing interest over the past several years. This paper presents the development and analysis of a model predictive control based framework that is used with the D'Amico relative orbital elements (ROEs) to maintain the desired trajectories of a cluster of spacecraft while also allowing freedom to maneuver within some allowable bounds. Switching surfaces based on the ROE constraints contain the full state of the system, allowing for fuel reduction over other approaches that use the Hill–Clohessy–Wiltshire equations. The formation and boundary constraints are designed such that no two agents have overlapping regions, allowing the vehicles to maintain safety of flight without continually maintaining the trajectories of other agents. This framework allows for a scalable method that can support clusters of satellites to safely achieve mission objectives while minimizing fuel usage. This paper provides simulated results of the framework for a three spacecraft formation that demonstrates a 67% fuel reduction when compared to previous approaches.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "145",
+    "lastpage": "163",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/5/5",
+    "received": "17 October 2023",
+    "revised": "",
+    "accepted": "18 April 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0214-8",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0214-8.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Guidance, Navigation, and Control",
+      "Mission Analysis and Constellation Design"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0219-3",
+    "title": "GTOC12: Results from TheAntipodes",
+    "authors": [
+      {
+        "name": "Roberto Armellin"
+      },
+      {
+        "name": "Andrea Bellome"
+      },
+      {
+        "name": "Xiaoyu Fu"
+      },
+      {
+        "name": "Harry Holt"
+      },
+      {
+        "name": "Cristina Parigini"
+      },
+      {
+        "name": "Minduli Wijayatunga"
+      },
+      {
+        "name": "Jack Yarndley"
+      }
+    ],
+    "affiliations": [
+      "Te Pūnaha Ātea — Space Institute,University of Auckland,",
+      "Department of Aerospace Vehicles Design and Control,FRANCE. ISAE-Supaero,FRANCE. ",
+      "Department of Mechanical and Aerospace Engineering,UNITED KINGDOM. The University of Liverpool,UNITED KINGDOM. ",
+      "Te Pūnaha Ātea — Space Institute,University of Auckland,",
+      "Te Pūnaha Ātea — Space Institute,University of Auckland,",
+      "Te Pūnaha Ātea — Space Institute,University of Auckland,",
+      "Te Pūnaha Ātea — Space Institute,University of Auckland,"
+    ],
+    "keywords": [
+      "GTOC",
+      "trajectory optimization",
+      "asteroid mining",
+      "direct methods",
+      "beam search",
+      "convex programming"
+    ],
+    "abstract": "We present the solution approach developed by the team \"TheAntipodes\" during the 12th edition of the Global Trajectory Optimization Competition (GTOC12). An overview of the approach is as follows: (1) generate asteroid subsets, (2) chain building with beam search, (3) convex low-thrust trajectory optimization, (4) manual refinement of rendezvous times, and (5) optimal solution set selection. The generation of asteroid subsets involves a heuristic process to find sets of asteroids that are likely to permit high-scoring asteroid chains. Asteroid sequences \"chains\" are built within each subset through a beam search based on Lambert transfers. Low-thrust trajectory optimization involves the use of sequential convex programming (SCP), where a specialized formulation finds the mass-optimal control for each ship's trajectory within seconds. Once a feasible trajectory has been found, the rendezvous times are manually refined with the aid of the control profile from the optimal solution. Each ship's individual solution is then placed into a pool where the feasible set that maximizes the final score is extracted using a genetic algorithm. Our final submitted solution placed fifth with a score of 15,489.",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "55",
+    "lastpage": "75",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "20 December 2023",
+    "revised": "",
+    "accepted": "06 May 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0219-3",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-024-0219-3.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Mission Analysis and Constellation Design",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0247-z",
+    "title": "GTOC12: Methods and results from the National University of Defense Technology",
+    "authors": [
+      {
+        "name": "Yu Zhang"
+      },
+      {
+        "name": "Yuehe Zhu"
+      },
+      {
+        "name": "Jiacheng Zhang"
+      },
+      {
+        "name": "Hanwei Wang"
+      },
+      {
+        "name": "Ke Jin"
+      },
+      {
+        "name": "Lifeng Fu"
+      }
+    ],
+    "affiliations": [
+      "College of Aerospace Science and Engineering,CHINA. National University of Defense Technology, 410073,CHINA. ",
+      "College of Aerospace Science and Engineering,CHINA. National University of Defense Technology, 410073,CHINA. ",
+      "College of Aerospace Science and Engineering,CHINA. National University of Defense Technology, 410073,CHINA. ",
+      "College of Aerospace Science and Engineering,CHINA. National University of Defense Technology, 410073,CHINA. ",
+      "College of Aerospace Science and Engineering,CHINA. National University of Defense Technology, 410073,CHINA. ",
+      "College of Aerospace Science and Engineering,CHINA. National University of Defense Technology, 410073,CHINA. "
+    ],
+    "keywords": [
+      "GTOC12",
+      "asteroid mining",
+      "global optimization",
+      "low-thrust trajectory optimization",
+      "mission planning"
+    ],
+    "abstract": "This paper presents the solutions and results of the 12th edition of the Global Trajectory Optimization Competition (GTOC12) of the National University of Defense and Technology. To address the complex interstellar mining problem proposed by GTOC12, our solution is divided into two stages. The first stage focuses on preliminary work, including the target selection, the establishment of departure and return databases, and the development of methods to estimate transfer costs, with the aim of enhancing planning efficiency during the global planning phase. The second stage involves trajectory optimization for multiple mining ships, including single-mining-ship trajectory optimization and a multiship iterative process. For single-mining-ship trajectory optimization, the method involves three steps: first, employ a heuristic method for planning the first rendezvous sequences; second, utilize an ant colony optimization (ACO) algorithm for planning the second rendezvous sequences; and third, apply a differential evolution (DE) algorithm alongside an indirect method to refine rendezvous times and low-thrust trajectories. Through the implementation of a multiship iterative strategy, the team accomplished trajectory optimization for multiple mining ships that met the constraints. The final score submitted by the team was 15,160.946, which achieved the sixth place in the competition.",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "129",
+    "lastpage": "141",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "29 July 2024",
+    "revised": "",
+    "accepted": "14 October 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0247-z",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0247-z.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Mission Analysis and Constellation Design",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0218-4",
+    "title": "Attitude trajectory design and optimization for planar space-based solar power arrays in molniya orbits",
+    "authors": [
+      {
+        "name": "Basel A. M. Omran"
+      },
+      {
+        "name": "Michael C. F. Bazzocchi"
+      }
+    ],
+    "affiliations": [
+      "Department of Mechanical & Aerospace Engineering,Clarkson University,",
+      "Department of Mechanical & Aerospace Engineering,Clarkson University,Department of Earth & Space Science & Engineering,New York University,"
+    ],
+    "keywords": [
+      "space-based solar power (SBSP)",
+      "power-beaming efficiency",
+      "modular satellite array",
+      "attitude trajectory design",
+      "attitude trajectory optimization",
+      "genetic algorithm"
+    ],
+    "abstract": "Escalating concerns about climate change and the limitations of alternative energy sources have renewed interest in space-based solar power. Among numerous concepts proposed for space-based solar power, the modular flat-plane sandwich configuration has emerged as a promising candidate, owing to its structural simplicity that lends itself well to recent advancements in wireless power transmission and on-orbit robotic assembly. As a consequence of its simple structure, there are also new challenges with respect to attitude design due to the coupling of sunlight collection and power beaming on opposing sides of the flat plane. This paper develops a versatile attitude trajectory optimization approach that maximizes power-beaming efficiency for modular space-based solar power configurations in Molniya orbits while minimizing the attitude control effort. The developed optimization approach employs a genetic algorithm to study two attitude design strategies. The first attitude design strategy investigates initially spinning configurations about the ecliptic normal and compares the power-beaming efficiency against solutions using near-optimal attitude and spin axis parameters for a one-year period determined through optimization. The second attitude design strategy employs multiple runs of a genetic algorithm discretized at different time of the year, each determining an inertially fixed attitude optimized for a one-month period. These attitudes are then used to design attitude maneuvers, each with an axis and rate of actuation designed analytically. The outcomes of this study determined several viable attitude trajectory optimization and design strategies for multiple space-based solar power system configurations, which generate attitude trajectories that maximize power beaming in Molniya orbits while minimizing attitude control effort.",
+    "volume": 9,
+    "issue": 3,
+    "firstpage": "421",
+    "lastpage": "446",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/7/16",
+    "received": "03 January 2024",
+    "revised": "",
+    "accepted": "24 April 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0218-4",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0218-4.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Space Systems and Engineering",
+      "Mission Analysis and Constellation Design"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0242-4",
+    "title": "Observer-based dual hybrid nonfragile tracking control for satellite swarm reconstruction",
+    "authors": [
+      {
+        "name": "Chuang Liu"
+      },
+      {
+        "name": "Yijie Luo"
+      },
+      {
+        "name": "Bailiang Lyu"
+      },
+      {
+        "name": "Keke Shi"
+      }
+    ],
+    "affiliations": [
+      "Research & Development Institute of Northwestern Polytechnical University in Shenzhen,Shenzhen,Guangdong,CHINA. School of Astronautics, Northwestern Polytechnical University,",
+      "Research & Development Institute of Northwestern Polytechnical University in Shenzhen,Shenzhen,Guangdong,CHINA. School of Astronautics, Northwestern Polytechnical University,",
+      "Research & Development Institute of Northwestern Polytechnical University in Shenzhen,Shenzhen,Guangdong,CHINA. School of Astronautics, Northwestern Polytechnical University,",
+      "School of Electric and Control Engineering,CHINA. Xi'an University of Science and Technology,CHINA. "
+    ],
+    "keywords": [
+      "satellite swarm reconstruction",
+      "dual hybrid nonfragile control",
+      "state observer",
+      "tracking control"
+    ],
+    "abstract": "This paper investigates the tracking control problem of satellite swarm reconstruction, where relative motion information in unknown and coexisting perturbations in both the observer and controller is addressed. Considering the multisource complex disturbances due to the space environment effect, a planned trajectory of a member satellite is given to satisfy the obstacle avoidance and dynamic constraints. Then, considering the coexistence of additive and multiplicative perturbations, a so-called dual hybrid nonfragile controller, i.e., a hybrid nonfragile state observer-based hybrid nonfragile tracking controller, is developed to achieve the tracking control performance of member satellites along the planned trajectory. Lyapunov stability analysis is performed to demonstrate the system stability via linear matrix inequalities (LMIs); thus, the satellite swarm can achieve the optimal trajectory reconstruction from its initial position to the desired position with topological constraints. Finally, numerical simulations are performed to demonstrate the effectiveness and superiority of the developed dual hybrid nonfragile control approach.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "643",
+    "lastpage": "656",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "08 May 2024",
+    "revised": "",
+    "accepted": "02 September 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0242-4",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0242-4.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Guidance, Navigation, and Control",
+      "Space Systems and Engineering"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0258-9",
+    "title": "Bounds of relative motion for resonant solar-sail halo orbits in Earth–Moon system",
+    "authors": [
+      {
+        "name": "Chen Gao"
+      },
+      {
+        "name": "Kai Zhang"
+      },
+      {
+        "name": "Zichen Deng"
+      },
+      {
+        "name": "Wei Wang"
+      }
+    ],
+    "affiliations": [
+      "MIIT Key Laboratory of Dynamics and Control of Complex Systems,Shanxi,CHINA. School of Mechanics and Transportation Engineering,Shanxi,CHINA. North-western Polytechnical University,Xi'an,Shanxi,CHINA. ",
+      "MIIT Key Laboratory of Dynamics and Control of Complex Systems,Shanxi,CHINA. School of Mechanics and Transportation Engineering,Shanxi,CHINA. North-western Polytechnical University,Xi'an,Shanxi,CHINA. ",
+      "MIIT Key Laboratory of Dynamics and Control of Complex Systems,Shanxi,CHINA. School of Mechanics and Transportation Engineering,Shanxi,CHINA. North-western Polytechnical University,Xi'an,Shanxi,CHINA. ",
+      "MIIT Key Laboratory of Dynamics and Control of Complex Systems,Shanxi,CHINA. School of Mechanics and Transportation Engineering,Shanxi,CHINA. North-western Polytechnical University,Xi'an,Shanxi,CHINA. "
+    ],
+    "keywords": [
+      "relative motion",
+      "jet transport technique",
+      "solar sail",
+      "Earth–Moon system"
+    ],
+    "abstract": "This study discusses the relative motion among Earth–Moon resonant solar-sail halo orbits of the same period, which are promising candidates for formation-flying missions. Because the restricted multibody problem admits no closed-form solutions, this study proposes a semi-analytic method for the bound analysis of relative motion using the jet transport technique. In particular, the bounds on the coordinate components and inter-spacecraft distance are explicitly specified as high-order Taylor polynomials in terms of solar-sail parameters that characterize the families of resonant halo orbits. These semi-analytic closed-form solutions allow rapid evaluations of the maximum, minimum, and mean distances among nearby solar-sail halo orbits, which are crucial for formation configuration design and control. Based on illustrative examples, we verify the effectiveness of the proposed semi-analytic bound-analysis method.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "807",
+    "lastpage": "820",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "18 January 2024",
+    "revised": "",
+    "accepted": "26 November 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0258-9",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0258-9.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence",
+      "Space Systems and Engineering"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0221-9",
+    "title": "Hazardous asteroid deflection based on “space billiard” mode: Mission analysis and trajectory design",
+    "authors": [
+      {
+        "name": "Yangxin Wang"
+      },
+      {
+        "name": "Vsevolod Vladimirovich Koryanov"
+      },
+      {
+        "name": "Alexey Gennadievich Toporkov"
+      }
+    ],
+    "affiliations": [
+      "Dynamics and Flight Control of Rockets and Spacecraft Department,RUSSIAN FEDERATION. Bauman Moscow State Technical University,RUSSIAN FEDERATION. ",
+      "Dynamics and Flight Control of Rockets and Spacecraft Department,RUSSIAN FEDERATION. Bauman Moscow State Technical University,RUSSIAN FEDERATION. ",
+      "Dynamics and Flight Control of Rockets and Spacecraft Department,RUSSIAN FEDERATION. Bauman Moscow State Technical University,RUSSIAN FEDERATION. "
+    ],
+    "keywords": [
+      "asteroid deflection",
+      "space billiard",
+      "gravity assist",
+      "trajectory optimization"
+    ],
+    "abstract": "Defense against potentially hazardous asteroids is crucial to human civilization. An asteroid projectile can be redirected to intercept hazardous asteroids by employing gravity assist from the Earth or Moon, thereby effectively altering their trajectory. Such an asteroid defense mode is referred to as “space billiard”. Current investigations regarding mission planning and trajectory design for this mode are either incomplete or contain imperfect perspectives. This article proposes a comprehensive mission planning from spacecraft departure to the impact of a hazardous asteroid with an asteroid projectile. This involves selecting an asteroid projectile, determining the maneuver time, and optimizing the low-thrust trajectory. The particle swarm optimization algorithm for the Lambert problem is introduced to search for the maneuver time, and low-thrust optimization is performed to design the transfer trajectory of the spacecraft. A collision model based on NASA's DART mission is used to analyze the feasibility of this approach. A classic example where this approach is adopted is for analyzing the hazardous asteroid Apophis. Based on this analysis, an asteroid projectile named 2015 VC2 is selected for simulation. The complete trajectories of the spacecraft and asteroid projectile are simulated, and the feasibility of the scheme is verified. This approach may be a feasible option for defending against hazardous asteroids.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "465",
+    "lastpage": "479",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/7/14",
+    "received": "12 March 2024",
+    "revised": "",
+    "accepted": "15 May 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0221-9",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0221-9.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Mission Analysis and Constellation Design",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0232-6",
+    "title": "GTOC12: Results from Σ team",
+    "authors": [
+      {
+        "name": "Kaiduo Wang"
+      },
+      {
+        "name": "Qi Ouyang"
+      },
+      {
+        "name": "Yong Liu"
+      },
+      {
+        "name": "Bin Li"
+      },
+      {
+        "name": "Yirui Wang"
+      },
+      {
+        "name": "Haohao Li"
+      },
+      {
+        "name": "Bowen Dong"
+      },
+      {
+        "name": "Dawei Fan"
+      },
+      {
+        "name": "Jiening Zhao"
+      },
+      {
+        "name": "Shurui Huang"
+      },
+      {
+        "name": "Shaofeng Li"
+      },
+      {
+        "name": "Yong Liu"
+      },
+      {
+        "name": "Mingtao Li"
+      },
+      {
+        "name": "Gefei Li"
+      },
+      {
+        "name": "Xizheng Yu"
+      },
+      {
+        "name": "Youliang Wang"
+      }
+    ],
+    "affiliations": [
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Beijing Aerospace Control Center,Beijing,CHINA. ",
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Beijing Aerospace Control Center,Beijing,CHINA. ",
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Beijing Aerospace Control Center,Beijing,CHINA. ",
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Beijing Aerospace Control Center,Beijing,CHINA. ",
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Beijing Aerospace Control Center,Beijing,CHINA. ",
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Beijing Aerospace Control Center,Beijing,CHINA. ",
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Beijing Aerospace Control Center,Beijing,CHINA. ",
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      " University of Chinese Academy of Sciences,National Space Science Center,CHINA. Chinese Academy of Sciences, 100101,CHINA. "
+    ],
+    "keywords": [
+      "space trajectory design",
+      "GTOC12",
+      "sustainable asteroid mining",
+      "flight sequence search",
+      "low-thrust optimization"
+    ],
+    "abstract": "Asteroid mining is a potentially lucrative method for extracting resources from space. Water resources found on asteroids can serve as fuel supplies for spacecrafts in deep space, and some asteroids are rich in precious metals, offering immense potential economic value. The 12th Global Trajectory Optimization Competition, held in 2023, introduced a challenge to trajectory design for sustainable asteroid mining. Participating teams were tasked with maximizing the mining quantity over a 15-yr period by utilizing as many mining ships as possible to depart from the Earth, deploy miners on multiple asteroids, recover minerals, and return to the Earth. Σ team devised a strategy in which one ship completes one sequence, enabling the collection of minerals from 203 asteroids using 26 mining ships. This paper outlines the design methodology and outcomes of this approach, encompassing a preliminary analysis of the problem, optimization for the Earth departure and return, flight sequence search, and low-thrust conversion and optimization. Through methods such as asteroid selection and clustering, database building for Earth--asteroid transfers, global search with an impulsive model, local optimization with a low-thrust model, and conversion of remaining fuel into mining time, the computational efficiency was significantly enhanced, fuel consumption per unit mineral collection was reduced, and mining quantity was improved. Finally, the design outcomes of this approach are presented. The proposed trajectory design method enables the completion of multiple asteroid rendezvouses in a short time, providing valuable insights for future missions involving a single spacecraft conducting multiple rendezvouses with multiple asteroids.",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "89",
+    "lastpage": "106",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "31 March 2024",
+    "revised": "",
+    "accepted": "24 June 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0232-6",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0232-6.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Mission Analysis and Constellation Design",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0254-0",
+    "title": "Optimal outbound transfer windows for Artemis Ⅲ and beyond",
+    "authors": [
+      {
+        "name": "Aaron Houin"
+      },
+      {
+        "name": "Rohan Sood"
+      }
+    ],
+    "affiliations": [
+      "University of Alabama, 35487,NASA Marshall Space Flight Center,UNITED STATES. ",
+      "University of Alabama, 35487,"
+    ],
+    "keywords": [
+      "Artemis",
+      "near-rectilinear halo orbit (NRHO)",
+      "launch window",
+      "optimization"
+    ],
+    "abstract": "The NASA Artemis program will take incremental steps towards establishing a sustainable and long-term human presence in the vicinity of the Moon. Artemis Ⅲ and beyond (Artemis 3+) will leverage a mission architecture that supports science in lunar orbit and on the surface of the Moon. These later Artemis missions will exploit either the Gateway spacecraft, an orbital laboratory in a 9:2 lunar resonant Near-Rectilinear Halo Orbit (NRHO), or the Human Landing System (HLS) in a similar orbit. While the NRHO provides many benefits to operations, the multi-body gravitational regime produces complex dynamics that can make orbital transfers from Earth difficult to optimize. This study provides a comprehensive examination of NRHO rendezvous transfers subjected to operational constraints presented by an Artemis 3+ architecture. An ephemeris model is utilized for the outbound transfer to rendezvous with a 9:2 NRHO bounded by parameters, such as Earth parking orbit, ΔV requirements, and transfer time constraints expected from an Artemis 3+ mission. The model was used to compute ΔV optimal transfers to a rendezvous target at different epochs corresponding to different positions along the NRHO. Next, contour plots were generated for transfer ΔVs across a range of rendezvous epochs and cislunar transfer durations, similar to a porkchop plot. These contour plots allow mission designers to view the entire solution space over a selected window of dates instead of just point solutions for a given epoch. This is particularly useful for a problem that has multiple local minima. While there is already a theoretical understanding of optimal transfers to an NRHO, this work explores transfer and rendezvous optimization in the context of Artemis 3+ operational constraints. Contour plots of the transfer solution space generated in this study are shown to be a valuable tool for constructing continuous and optimal launch windows.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "893",
+    "lastpage": "907",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "09 August 2024",
+    "revised": "",
+    "accepted": "16 November 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0254-0",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0254-0.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Mission Analysis and Constellation Design",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0209-5",
+    "title": "GTOC12: Results from Nanjing University of Aeronautics and Astronautics",
+    "authors": [
+      {
+        "name": "Yu Zhang"
+      },
+      {
+        "name": "Jincheng Hu"
+      },
+      {
+        "name": "Guoliang Liang"
+      },
+      {
+        "name": "Hongwei Yang"
+      },
+      {
+        "name": "Pengxuan Liu"
+      },
+      {
+        "name": "Xinxi Zeng"
+      },
+      {
+        "name": "Shuang Li"
+      },
+      {
+        "name": "Bin Yang"
+      }
+    ],
+    "affiliations": [
+      "College of Astronautics,CHINA. Nanjing University of Aeronautics and Astronautics, 210016,CHINA. ",
+      "College of Astronautics,CHINA. Nanjing University of Aeronautics and Astronautics, 210016,CHINA. ",
+      "College of Astronautics,CHINA. Nanjing University of Aeronautics and Astronautics, 210016,CHINA. ",
+      "College of Astronautics,CHINA. Nanjing University of Aeronautics and Astronautics, 210016,CHINA. ",
+      "College of Astronautics,CHINA. Nanjing University of Aeronautics and Astronautics, 210016,CHINA. ",
+      "College of Astronautics,CHINA. Nanjing University of Aeronautics and Astronautics, 210016,CHINA. ",
+      "College of Astronautics,CHINA. Nanjing University of Aeronautics and Astronautics, 210016,CHINA. ",
+      "College of Astronautics,CHINA. Nanjing University of Aeronautics and Astronautics, 210016,CHINA. "
+    ],
+    "keywords": [
+      "GTOC12",
+      "asteroid mining",
+      "asteroid rendezvous",
+      "beam search",
+      "trajectory optimization"
+    ],
+    "abstract": "This paper presents the results and design methods of team Nanjing University of Aeronautics and Astronautics in the 12th edition of the Global Trajectory Optimization Competition. To address the problem of sustainable asteroid mining, we focus on the following: analyzing the constraints and asteroids involved; selecting a candidate set of asteroids for which mining missions can be performed easily; establishing an algorithmic flow using phasing indicators, multiobjective beam search, and a genetic algorithm to determine the sequence of asteroid visits for mining ships; and optimizing low-thrust trajectories via an indirect method and global optimization. In addition, a central-node method is proposed to simplify the design process and reduce the computational cost of performing repetitive asteroid-rendezvous missions. The methods developed in the competition enable the mining of 161 asteroids via 20 mining ships, with a total collected mass of 11,513 kg.",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "41",
+    "lastpage": "53",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "06 November 2023",
+    "revised": "",
+    "accepted": "07 March 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0209-5",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0209-5.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Mission Analysis and Constellation Design",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0246-0",
+    "title": "Attention-driven reinforcement learning for multi-satellite collaborative orbital interception strategy solution",
+    "authors": [
+      {
+        "name": "Wenxiu Zhang"
+      },
+      {
+        "name": "Yamin Wang"
+      },
+      {
+        "name": "Yonghe Zhang"
+      }
+    ],
+    "affiliations": [
+      "Key Laboratory for Satellite Digitalization Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. Innovation Academy for Microsatellites,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Key Laboratory for Satellite Digitalization Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. Innovation Academy for Microsatellites,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Key Laboratory for Satellite Digitalization Technology,CHINA. Chinese Academy of Sciences, 100101,CHINA. Innovation Academy for Microsatellites,CHINA. Chinese Academy of Sciences, 100101,CHINA. "
+    ],
+    "keywords": [
+      "multi-satellite orbital",
+      "interception",
+      "collaborative decision-making",
+      "deep reinforcement learning",
+      "attention mechanism"
+    ],
+    "abstract": "Aiming at the problem of efficient collaborative decision-making among multiple satellites in multi-satellite orbital interception mission, a multi-satellite cooperative orbital interception strategy based on attention mechanism and deep reinforcement learning is proposed. Firstly, considering the orbital dynamics, maneuverability, mission duration, and collision avoidance constraints faced in orbital interception mission, a Markov decision process is designed, and a multi-satellite game strategy solution framework based on the actor–critic network is built; then, a guided reward function is designed to effectively guide the pursuit satellite to approach and intercept the escaping satellite to accelerate the convergence speed of the algorithm; finally, the attention mechanism is used to capture the potential relationship between satellites and generate coded information with biased attention effect, which helps satellites form an efficient collaborative interception strategy. The simulation experiments show that the trained satellites can conduct autonomous learning and decision-making in a dynamic and uncertain environment. In orbital interception mission, the pursuit satellite can adopt an effective collaborative strategy to use the advantage of quantity to make up for the disadvantage of speed, maintain a high mission success rate, and a series of intelligent game behaviors emerge.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "657",
+    "lastpage": "669",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "24 July 2024",
+    "revised": "",
+    "accepted": "06 October 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0246-0",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0246-0.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0204-x",
+    "title": "Asteroid mining: ACT&Friends' results for the GTOC12 problem",
+    "authors": [
+      {
+        "name": "Dario Izzo"
+      },
+      {
+        "name": "Marcus Märtens"
+      },
+      {
+        "name": "Laurent Beauregard"
+      },
+      {
+        "name": "Max Bannach"
+      },
+      {
+        "name": "Giacomo Acciarini"
+      },
+      {
+        "name": "Emmanuel Blazquez"
+      },
+      {
+        "name": "Alexander Hadjiivanov"
+      },
+      {
+        "name": "Jai Grover"
+      },
+      {
+        "name": "Gernot Heißel"
+      },
+      {
+        "name": "Yuri Shimane"
+      },
+      {
+        "name": "Chit Hong Yam"
+      }
+    ],
+    "affiliations": [
+      "European Space Technology and Research Center,",
+      "European Space Technology and Research Center,",
+      "European Space Operations Centre,GERMANY. ",
+      "European Space Technology and Research Center,",
+      "European Space Technology and Research Center,Surrey Space Center,Sassari,ITALY. Università di Sassari,Via Vienna,Sassari,ITALY. ",
+      "European Space Technology and Research Center,",
+      "European Space Technology and Research Center,",
+      "European Space Technology and Research Center,",
+      "European Space Technology and Research Center,",
+      "School of Aerospace Engineering,Georgia Institute of Technology, 30332-0405,",
+      "Mission Design and Operations Group,JAPAN. ispace公司,JAPAN. Sumitomo Fudosan Hamacho Building 3F,JAPAN. "
+    ],
+    "keywords": [
+      "GTOC",
+      "low thrust",
+      "asteroid mining",
+      "machine learning",
+      "mixed-integer linear programming",
+      "nonlinear programming"
+    ],
+    "abstract": "In 2023, the 12th edition of Global Trajectory Competition was organized around the problem referred to as \"Sustainable Asteroid Mining\". This paper reports the developments that led to the solution proposed by ESA's Advanced Concepts Team. Beyond the fact that the proposed approach failed to rank higher than fourth in the final competition leader-board, several innovative fundamental methodologies were developed which have a broader application. In particular, new methods based on machine learning as well as on manipulating the fundamental laws of astrodynamics were developed and able to fill with remarkable accuracy the gap between full low-thrust trajectories and their representation as impulsive Lambert transfers. A novel technique was devised to formulate the challenge of optimal subset selection from a repository of pre-existing optimal mining trajectories as an integer linear programming problem. Finally, the fundamental problem of searching for single optimal mining trajectories (mining and collecting all resources), albeit ignoring the possibility of having intra-ship collaboration and thus sub-optimal in the case of the GTOC12 problem, was efficiently solved by means of a novel search based on a look-ahead score and thus making sure to select asteroids that had chances to be re-visited later on..",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "19",
+    "lastpage": "40",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "23 November 2023",
+    "revised": "",
+    "accepted": "22 January 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0204-x",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0204-x.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Mission Analysis and Constellation Design",
+      "Advanced Concepts and Space Intelligence",
+      "Orbital Dynamics and Trajectory Optimization"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0253-1",
+    "title": "Fully-distributed autonomous scheduling for Earth-observing constellations",
+    "authors": [
+      {
+        "name": "Yu Yan"
+      },
+      {
+        "name": "Jihe Wang"
+      },
+      {
+        "name": "Wei Wang"
+      },
+      {
+        "name": "Lining Tan"
+      },
+      {
+        "name": "Renuganth Varatharajoo"
+      },
+      {
+        "name": "Chengxi Zhang"
+      }
+    ],
+    "affiliations": [
+      "School of Aeronautics and Astronautics,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Aeronautics and Astronautics,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Aeronautics and Astronautics,CHINA. Shanghai Jiao Tong University, 200240,CHINA. ",
+      "College of Nuclear Engineering,Shanxi,CHINA. Rocket Military Engineering University,Xi'an,Shanxi,CHINA. ",
+      "Department of Aerospace Engineering,MALAYSIA. Universiti Putra Malaysia,MALAYSIA. ",
+      "Key Laboratory of Advanced Control for Light Industry Processes, Ministry of Education,CHINA. Jiangnan University, 214122,CHINA. "
+    ],
+    "keywords": [
+      "fully-distributed mission",
+      "scheduling",
+      "autonomous scheduling",
+      "Earth-observation",
+      "reinforcement learning"
+    ],
+    "abstract": "The coordination of multiple Earth-observing satellites presents a significant scheduling challenge. This paper introduces a fully distributed autonomous scheduling solution that utilizes a learning-based mechanism through an independent proximal policy optimization (IPPO) algorithm. Each satellite independently makes decisions regarding tasks, such as imaging, desaturation, and charging, while adapting to dynamic environmental changes to enhance its real-time constellation scheduling performance. The proposed fully distributed strategy enables individual satellites to update their policies based solely on their observations. The only requirement is the unidirectional broadcast of a completion flag upon target observation. This approach distinguishes itself from traditional centralized methods, thus enhancing the overall robustness and security of the system. In simulations, our strategy exhibited effective observational mission planning results for major cities worldwide. The results show that the proposed method addresses both autonomous scheduling and significantly improves constellation performance and reliability.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "877",
+    "lastpage": "892",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "29 August 2024",
+    "revised": "",
+    "accepted": "11 November 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0253-1",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0253-1.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Mission Analysis and Constellation Design",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0245-1",
+    "title": "Attitude reference generation for spacecraft with rotating solar arrays and pointing constraints",
+    "authors": [
+      {
+        "name": "Riccardo Calaon"
+      },
+      {
+        "name": "Cody Allard"
+      },
+      {
+        "name": "Hanspeter Schaub"
+      }
+    ],
+    "affiliations": [
+      "Ann and H.J. Smead Department of Aerospace Engineering Sciences,University of Colorado Boulder, 80309,",
+      "Laboratory for Atmospheric and Space Physics,科罗拉多州,UNITED STATES. ",
+      "Ann and H.J. Smead Department of Aerospace Engineering Sciences,University of Colorado Boulder, 80309,"
+    ],
+    "keywords": [
+      "spacecraft attitude guidance",
+      "optimal power generation",
+      "articulating solar arrays",
+      "pointing constraints"
+    ],
+    "abstract": "Advancements in space technology are enabling more sophisticated spacecraft designs with time-varying spacecraft configurations to account for varying power considerations. For example, articulating solar arrays that rotate about an axis fixed with respect to the hub can track the Sun at all times. Electric thrusters also have become omnipresent in modern spacecraft designs. Because these thrusters operate over long time windows, and the thrust vector must at all times be aligned with a specific inertial orientation, the optimal spacecraft attitude reference needs to accommodate the thruster too. Multiple pointing constraints pose a challenge to the attitude reference generation problem, because the attitude is characterized by three degrees of freedom, whereas the different constraints are often described by overdetermined systems of multiple equations. This paper leverages a range of attitude parameterizations to provide a mathematical description of the solution spaces of the constraints outlined above. When the intersection space is nonzero, it is possible to compute a solution that satisfies multiple constraints simultaneously. Conversely, an ordered list of pointing priorities is required in order to enforce the most important requirements, and reformulate the subsequent ones in terms of constrained optimization problems. The attitude guidance formulation is written in a general manner, which makes it applicable to a broad range of mission configurations.",
+    "volume": 9,
+    "issue": 3,
+    "firstpage": "389",
+    "lastpage": "406",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/7/16",
+    "received": "14 July 2024",
+    "revised": "",
+    "accepted": "04 October 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0245-1",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0245-1.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Attitude Determination and Space Manipulation",
+      "Space Systems and Engineering",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0239-z",
+    "title": "Terminal guidance and control algorithms for kinetic impact missions on 30-m-diameter asteroids",
+    "authors": [
+      {
+        "name": "Jialong Song"
+      },
+      {
+        "name": "Ning Han"
+      },
+      {
+        "name": "Shuo Mu"
+      },
+      {
+        "name": "Hui Liu"
+      },
+      {
+        "name": "Yaowu Duan"
+      },
+      {
+        "name": "Shuxuan Liu"
+      },
+      {
+        "name": "Hexi Baoyin"
+      }
+    ],
+    "affiliations": [
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      " Beijing Institute of Control & Electronics Technology,Beijing,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      " Beijing Institute of Control & Electronics Technology,Beijing,CHINA. ",
+      " Beijing Institute of Control & Electronics Technology,Beijing,CHINA. ",
+      " Beijing Institute of Control & Electronics Technology,Beijing,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "asteroid defense",
+      "kinetic impact",
+      "terminal guidance",
+      "continuous thrust control"
+    ],
+    "abstract": "Kinetic impact is an effective approach for studying and defending against asteroids. Impact missions have focused on asteroids with diameters larger than 100 m, whereas smaller missions have not been explored. Terminal guidance and control algorithms for small asteroids have received limited attention. China plans to conduct its first asteroid defense demonstration mission around 2025 on a 30-m-diameter asteroid. This paper presents the guidance and control algorithms for the terminal phase of this mission. The guidance formulas for impact missions are derived in this study using predictive and proportional guidance laws. Three maneuver criteria are proposed to determine the optimal timing for orbit correction, considering fuel consumption, impact accuracy, and computational cost. A continuous thrust control strategy was introduced to achieve incremental changes in velocity based on the relative motion of the impactor and target. The performance of the guidance and control algorithms was evaluated using Monte Carlo simulation, which demonstrated their effectiveness in handling uncertainties and achieving a high success rate. The results indicate that the proposed algorithm can be applied to future impact missions targeting small asteroids.",
+    "volume": 9,
+    "issue": 3,
+    "firstpage": "407",
+    "lastpage": "420",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/7/16",
+    "received": "13 March 2024",
+    "revised": "",
+    "accepted": "18 August 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0239-z",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0239-z.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Guidance, Navigation, and Control",
+      "Mission Analysis and Constellation Design",
+      "Orbital Dynamics and Trajectory Optimization"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-025-0276-2",
+    "title": "Radar initial orbit determination method from angular track and Doppler shift measurements",
+    "authors": [
+      {
+        "name": "Marco Felice Montaruli"
+      }
+    ],
+    "affiliations": [
+      "Department of Aerospace Science and Technology (DAER),ITALY. Politecnico di Milano,ITALY. "
+    ],
+    "keywords": [
+      "space surveillance and tracking (SST)",
+      "space situational awareness (SSA)",
+      "initial orbit determination (IOD)",
+      "admissible regions",
+      "space surveillance radars"
+    ],
+    "abstract": "The growth in the overpopulation of resident space objects calls for space surveillance initiatives. In particular, the threat posed by in-orbit collisions and fragmentations, as well as by satellites re-entry requires an efficient space objects cataloguing capability. Ground-based sensors are the main contributors to build up and maintain a catalogue of space objects. In this context, survey radars can provide angular track, slant range, and Doppler shift measurements without the need for transit prediction, allowing either the refinement or the initial determination of the target orbital state. In the latter case, a proper Initial Orbit Determination (IOD) technique is required to reconstruct the orbital state of the observed object. This work presents the IODAD algorithm (Initial Orbit Determination from Angular and Doppler shift measurements), a novel radar IOD method when slant range is not available, and thus relying only on the angular and Doppler shift measurements. The proposed IOD algorithm combines the optical admissible region, computed from the angular track measurement, with the measured Doppler shift to compute a first estimate of the orbital state. This combination forks depending on whether the radar is monostatic or bistatic. At the end, the first estimate is refined through a batch filter and the IOD result is returned in terms of mean state and covariance. Unlike existing methods, the new algorithm offers greater flexibility and ease of operational application, as it does not need long measurements tracks as input, nor a specific advanced computational technique. Numerical simulations show the potential of the IODAD algorithm, both through nominal and sensitivity analysis, proving its validity to any survey radar. In addition, a comparison with an existing method demonstrates the significantly better performance of the proposed method. Finally, the results are confirmed by analysing a real dataset of transits concerning calibrator satellites.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "993",
+    "lastpage": "1013",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "06 December 2024",
+    "revised": "",
+    "accepted": "07 May 2025",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-025-0276-2",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-025-0276-2.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Attitude Determination and Space Manipulation",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0249-x",
+    "title": "E2E: Onboard satellite real-time classification of thermal hotspots events on optical raw data",
+    "authors": [
+      {
+        "name": "Gabriele Meoni"
+      },
+      {
+        "name": "Roberto Del Prete"
+      },
+      {
+        "name": "Lucia Ancos-Villa"
+      },
+      {
+        "name": "Enrique Albalate-Prieto"
+      },
+      {
+        "name": "David Rijlaarsdam"
+      },
+      {
+        "name": "Jose Luis Espinosa-Aranda"
+      },
+      {
+        "name": "Nicolas Longépé"
+      },
+      {
+        "name": "Maria Daniela Graziano"
+      },
+      {
+        "name": "Alfredo Renga"
+      }
+    ],
+    "affiliations": [
+      "Φ-lab,European Space Agency, 2001 AZ,Department of Space Engineering,NETHERLANDS. Faculty of Aerospace Engineering,NETHERLANDS. Technische Universiteit Delft,NETHERLANDS. ",
+      "Department of Industrial Engineering,ITALY. University of Naples Federico II,ITALY. Φ-lab,European Space Agency, 2001 AZ,",
+      "Ubotica Technologies,IRELAND. DCU Alpha,IRELAND. ",
+      "Ubotica Technologies,IRELAND. DCU Alpha,IRELAND. ",
+      "Ubotica Technologies,IRELAND. DCU Alpha,IRELAND. ",
+      "Ubotica Technologies,IRELAND. DCU Alpha,IRELAND. ",
+      "Φ-lab,European Space Agency, 2001 AZ,",
+      "Department of Industrial Engineering,ITALY. University of Naples Federico II,ITALY. ",
+      "Department of Industrial Engineering,ITALY. University of Naples Federico II,ITALY. "
+    ],
+    "keywords": [
+      "onboard processing",
+      "onboard machine learning",
+      "artificial intelligence (AI)",
+      "thermal anomalies classification",
+      "raw data"
+    ],
+    "abstract": "Nowadays, the use of Machine Learning (ML) onboard Earth Observation (EO) satellites has been investigated for a plethora of applications relying on multispectral and hyperspectral imaging. Traditionally, these studies have heavily relied on high-end data products, subjected to extensive pre-processing chains natively designed to be executed on the ground. However, replicating such algorithms onboard EO satellites poses significant challenges due to their computational intensity and need for additional metadata, which are typically unavailable on board. Because of that, current missions exploring onboard ML models implement simplified but still complex processing chains that imitate their on-ground counterparts. Despite these advancements, the potential of ML models to process raw satellite data directly remains largely unexplored. To fill this gap, this paper investigates the feasibility of applying ML models directly to Sentinel-2 raw data to perform thermal hotspot classification. This approach significantly limits the processing steps to simple and lightweight algorithms to achieve real-time processing of data with low power consumption. To this aim, we present an end-to-end (E2E) pipeline to create a binary classification map of Sentinel-2 raw granules, where each point suggests the absence/presence of a thermal anomaly in a square area of 2.5 km. To this aim, lightweight coarse spatial registration is applied to register three different bands, and an EfficientNetlite0 model is used to perform the classification of the various bands. The trained models achieve an average Matthew’s correlation coefficient (MCC) score of 0.854 (on 5 seeds) and a maximum MCC of 0.90 on a geographically tripartite dataset of cropped images from the THRawS dataset. The proposed E2E pipeline is capable of processing a Sentinel-2 granule in 1.8 s and within 6.4 W peak power on a combination of Raspberry PI 4 and CogniSat-XE2 board, demonstrating real-time performance.",
+    "volume": 9,
+    "issue": 3,
+    "firstpage": "447",
+    "lastpage": "463",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/7/16",
+    "received": "21 March 2024",
+    "revised": "",
+    "accepted": "31 October 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0249-x",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-024-0249-x.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Space Systems and Engineering",
+      "Advanced Concepts and Space Intelligence",
+      "Mission Analysis and Constellation Design"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-025-0273-5",
+    "title": "A geometric approach to optimal motion planning for close-range rendezvous and synchronization",
+    "authors": [
+      {
+        "name": "Jun Yang Li"
+      },
+      {
+        "name": "M. Reza Emami"
+      }
+    ],
+    "affiliations": [
+      "Institute for Aerospace Studies,CANADA. University of Toronto, M5S2E4,CANADA. ",
+      "Institute for Aerospace Studies,CANADA. University of Toronto, M5S2E4,CANADA. "
+    ],
+    "keywords": [
+      "spacecraft rendezvous",
+      "synchronization",
+      "motion planning",
+      "trajectory optimization",
+      "boundary value problem (BVP)",
+      "Riemannian geometry"
+    ],
+    "abstract": "Fuel-optimal orbit-attitude motion planning for spacecraft close-range rendezvous and synchronization requires solving a two-point boundary value problem with continuous input actuation. This paper presents a geometric approach to the problem, which not only encompasses both translational and rotational dynamics, but also incorporates a novel adaptive multiplier method to enforce actuation constraints during the optimization process. Further, in the case of underactuation, such as small single-thruster spacecraft, the paper proposes a guided technique for the geometric approach to direct the attitude using the optimal translational trajectory. The geometric approach is verified through several case studies, where it is compared against a direct method optimization and a concurrent controller, to demonstrate the computational efficiency as well as resulting optimal trajectories of the approach.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "621",
+    "lastpage": "642",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/7/15",
+    "received": "18 December 2024",
+    "revised": "",
+    "accepted": "11 April 2025",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-025-0273-5",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-025-0273-5.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Guidance, Navigation, and Control",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0240-6",
+    "title": "Revisiting dust dynamics in Europa’s plumes based on Galileo detection data",
+    "authors": [
+      {
+        "name": "Zizhe Cai"
+      },
+      {
+        "name": "Zhenghan Chen"
+      },
+      {
+        "name": "Kun Yang"
+      },
+      {
+        "name": "Xiaodong Liu"
+      }
+    ],
+    "affiliations": [
+      "School of Aeronautics and Astronautics,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. Shenzhen Key Laboratory of Intelligent Microsatellite Constellation,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Aeronautics and Astronautics,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. Shenzhen Key Laboratory of Intelligent Microsatellite Constellation,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Aeronautics and Astronautics,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. Shenzhen Key Laboratory of Intelligent Microsatellite Constellation,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Aeronautics and Astronautics,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. Shenzhen Key Laboratory of Intelligent Microsatellite Constellation,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. "
+    ],
+    "keywords": [
+      "Europa",
+      "plume",
+      "surface deposition",
+      "dust"
+    ],
+    "abstract": "Europa’s plume eruption activity provides a unique opportunity to explore its subsurface ocean and potential biological activity. Based on in-situ detection data from the Galileo spacecraft, it has been concluded that Europa’s plumes have an inclined ejection structure. On this basis, in this study, large-scale simulations of dust dynamics were performed, and the influence of Europa’s plume structures and parameters on dust dynamics was analyzed. Compared with the nearly circular deposition area from vertical eruptions, the surface deposition of plume particles from an inclined eruption exhibits an offset in the tilt direction. Additionally, the plume particle spatial distribution from inclined eruptions is sparser at higher altitudes than that from vertical eruptions. The size of the deposition area is significantly influenced by the gas velocity, whereas the degree of deposition concentration is affected by the critical grain radius and the size distribution exponent, which is similar to that of Enceladus. Lower gas velocity and smaller critical grain radius also result in a sparser distribution at high altitudes. Furthermore, the surface deposition and spatial distribution of the double eruption locations are also considered.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "773",
+    "lastpage": "783",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "07 June 2024",
+    "revised": "",
+    "accepted": "22 August 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0240-6",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0240-6.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Mission Analysis and Constellation Design",
+      "Space Systems and Engineering",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0230-8",
+    "title": "Neural networks-based solution of the two-body problem",
+    "authors": [
+      {
+        "name": "Zhuojun Hou"
+      },
+      {
+        "name": "Qinbo Sun"
+      },
+      {
+        "name": "Zhaohui Dang"
+      }
+    ],
+    "affiliations": [
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,National Key Laboratory of Aerospace Flight Dynamics,Xi'an,Shanxi,CHINA. "
+    ],
+    "keywords": [
+      "machine learning",
+      "two-body problem",
+      "Kepler equation",
+      "neural network"
+    ],
+    "abstract": "This paper presents a novel machine learning approach designed to efficiently solve the classical two-body problem. The inherent structure of the two-body problem involves the integration of a system of second-order nonlinear ordinary differential equations. Conventional numerical integration techniques that rely on small computation steps result in a prolonged computational time. Moreover, calculus has limitations in resolving the two-body problem, inevitably converging towards an unresolved Kepler equation of a transcendental nature. To address this issue, we integrate the conventional analytical solution based on true anomaly with a deep neural network representation of the Kepler equation. This results in a highly accurate closed-form solution that is solely dependent on time, which is termed a learning-based solution to the two-body problem. To enhance the precision, a correction module based on Halley iteration is introduced, which substantially improves the final solution in terms of precision and computational cost. Compared to state-of-the-art methods such as the piecewise Padé approximation, Adomian decomposition method, and modified Mikkola’s method, our approach achieves a computational speedup of several thousand to tens of thousands, while maintaining accuracy in large-scale orbit propagation scenarios. Empirical validation under simulated conditions underscores its effectiveness and potential value for long-term orbit determination.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "537",
+    "lastpage": "564",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/8/26",
+    "received": "08 January 2024",
+    "revised": "",
+    "accepted": "03 June 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0230-8",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0230-8.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Guidance, Navigation, and Control",
+      "Orbital Dynamics and Trajectory Optimization"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0227-3",
+    "title": "Collision avoidance maneuver optimization during low-thrust propelled trajectories",
+    "authors": [
+      {
+        "name": "Zeno Pavanello"
+      },
+      {
+        "name": "Laura Pirovano"
+      },
+      {
+        "name": "Roberto Armellin"
+      },
+      {
+        "name": "Andrea De Vittori"
+      },
+      {
+        "name": "Pierluigi Di Lizia"
+      }
+    ],
+    "affiliations": [
+      "Te Pūnaha Ātea — Space Institute,University of Auckland,",
+      "Te Pūnaha Ātea — Space Institute,University of Auckland,",
+      "Te Pūnaha Ātea — Space Institute,University of Auckland,",
+      "Department of Aerospace Science and Technology (DAER),ITALY. Politecnico di Milano,ITALY. ",
+      "Department of Aerospace Science and Technology (DAER),ITALY. Politecnico di Milano,ITALY. "
+    ],
+    "keywords": [
+      "collision avoidance (COLA)",
+      "low thrust",
+      "convex optimization",
+      "trajectory optimization",
+      "space traffic management"
+    ],
+    "abstract": "Conjunctions between spacecraft are increasingly common across orbital regimes, demanding reliable and efficient collision avoidance (COLA) strategies. The typical solution to the COLA problem is to compute a maneuver that reduces the collision risk while minimizing fuel expenditure. If the spacecraft is in a continuously propelled phase, this approach must be modified since the thrust profile is determined a priori, aiming to reach a final orbit. This work proposes using convex optimization to solve the short-term encounter COLA problem in such conditions. The optimization problem is two-fold: (ⅰ) the collision risk must be reduced below a certain threshold; (ⅱ) after the conjunction, the spacecraft must be rerouted into the nominal trajectory. By casting the problem as a sequential convex program, the original nonlinear optimal control problem is solved iteratively, recovering an optimal solution. Within the second-order cone program framework, three strategies are proposed to address the problem: (ⅰ) determining the optimal switch-off time to avoid the collision while minimizing deviation from the nominal trajectory; computing a new thrust profile, deviating as little as possible from the original one in terms of (ⅱ) vector or (ⅲ) angular difference. The three strategies are tested on practical operational scenarios, using the nominal thrust profile from a low-thrust geostationary transfer orbit and conjunction details from a conjunction data message.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "247",
+    "lastpage": "271",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/5/7",
+    "received": "24 February 2024",
+    "revised": "",
+    "accepted": "28 May 2025",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0227-3",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-024-0227-3.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Guidance, Navigation, and Control",
+      "Space Environment and Space Debris"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0248-y",
+    "title": "Advanced thermal insulation strategies for liquid hydrogen storage tanks in Martian environments",
+    "authors": [
+      {
+        "name": "Yang Yu"
+      },
+      {
+        "name": "Fushou Xie"
+      },
+      {
+        "name": "Yanzhong Li"
+      }
+    ],
+    "affiliations": [
+      "Institute of Refrigeration and Cryogenic Engineering,Shanxi,CHINA. Xi׳an Jiaotong University,Xi'an,Shanxi,CHINA. ",
+      "Institute of Refrigeration and Cryogenic Engineering,Shanxi,CHINA. Xi׳an Jiaotong University,Xi'an,Shanxi,CHINA. State Key Laboratory of Technologies in Space Cryogenic Propellants,Beijing,CHINA. ",
+      "Institute of Refrigeration and Cryogenic Engineering,Shanxi,CHINA. Xi׳an Jiaotong University,Xi'an,Shanxi,CHINA. State Key Laboratory of Technologies in Space Cryogenic Propellants,Beijing,CHINA. "
+    ],
+    "keywords": [
+      "Martian lander",
+      "liquid hydrogen (LH2)",
+      "thermal protection",
+      "multilayer insulation (MLI)",
+      "new insulation structure"
+    ],
+    "abstract": "Liquid hydrogen (LH2) is a highly preferred fuel for propelling large-ton Martian landers. Currently, composite insulation structures (CISs), consisting of multilayer insulation (MLI) and spray-on foam insulation (SOFI) are used for the thermal protection of cryogenic propellant tanks. However, the Martian environment poses significant challenges for the thermal protection of LH2 tanks, primarily because of the presence of rarefied carbon dioxide (CO2). CO2 can condense within the MLI microchannels, leading to significant deterioration in the insulation performance of CIS. This study investigates this unique phenomenon occurring on Mars. Two thermal-insulation schemes are designed for potential applications in Martian landers. Numerical models are developed to predict the insulation performance of CIS on Mars by coupling CO2 condensation and conduction calculations within microchannels. Several key findings emerge: (1) The heat leakage decreases by 82.22% as SOFI thickness increases from 5 to 50 mm. (2) The heat leakage initially rises sharply, and then increases gradually with ambient Martian temperature. (3) The insulation performance deteriorates rapidly and then stabilizes as the number of MLI layers increases, but the heat leakage of CIS exceeds 10 W/m2. (4) A new type of insulation scheme (NIS) aimed at solving the issue in finding (3) is designed for the Mars lander by prioritizing the minimum weight which results in an NIS heat leakage of 0.298 W/m2—two to four orders of magnitude lower than that of CISs. These findings provide valuable technical insights into enhancing the thermal protection of LH2 propellant tanks.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "837",
+    "lastpage": "854",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "30 January 2024",
+    "revised": "",
+    "accepted": "30 October 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0248-y",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0248-y.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Space Systems and Engineering",
+      "Space Environment and Space Debris",
+      "Mission Analysis and Constellation Design"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-025-0267-3",
+    "title": "Editorial for the GTOC12 Special Issue",
+    "authors": [
+      {
+        "name": "Fanghua Jiang"
+      },
+      {
+        "name": "Hexi Baoyin"
+      }
+    ],
+    "affiliations": [
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [],
+    "abstract": "",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "1",
+    "lastpage": "2",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "type": "Editorial",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-025-0267-3",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-025-0267-3.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Mission Analysis and Constellation Design"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0243-3",
+    "title": "Distributed composite state observer-based cooperative control for spacecraft swarm",
+    "authors": [
+      {
+        "name": "Jianlin Chen"
+      },
+      {
+        "name": "Yang Yu"
+      },
+      {
+        "name": "Zixuan Zheng"
+      },
+      {
+        "name": "Jianping Yuan"
+      }
+    ],
+    "affiliations": [
+      "School of Civil Aviation,Shanxi,CHINA. North-western Polytechnical University,Xi'an,Shanxi,CHINA. ",
+      "School of Aeronautics and Astronautics,CHINA. Shanghai Jiao Tong University, 200240,CHINA. ",
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,"
+    ],
+    "keywords": [
+      "cooperative control",
+      "nonlinear relative motion",
+      "distributed composite state observer",
+      "external disturbances"
+    ],
+    "abstract": "This paper proposes a distributed composite state observer-based cooperative control scheme for multiple spacecraft with consideration of external disturbances. The nonlinear relative motion dynamics of multiple spacecraft is established in a rotating local-vertical local-horizontal (LVLH) reference frame attached to a virtual spacecraft. Based on the undirected topology, a novel distributed composite state observer is developed for each follower spacecraft only using the position level information of its neighbors, such that the states and total disturbances of both the leader spacecraft dynamical model and the consistency error system can be estimated. Then, a composite controller is put forward in terms of the outputs of the developed composite state observer, which not only enables to overcome the external disturbances but also achieve spacecraft consistent collaborative control or formation flying. The convergence and stability of the distributed composite state observer and the closed-loop control system are verified by the Lyapunov theory. Finally, the effectiveness of the presented cooperative control strategy is proved by two illustrative numerical simulations.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "821",
+    "lastpage": "835",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "03 May 2024",
+    "revised": "",
+    "accepted": "04 September 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0243-3",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0243-3.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Guidance, Navigation, and Control",
+      "Orbital Dynamics and Trajectory Optimization"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0251-3",
+    "title": "Addressing the ill-conditioned problem in initial orbit determination via the Gooding algorithm",
+    "authors": [
+      {
+        "name": "Zhengyuan Zhang"
+      },
+      {
+        "name": "Jizhang Sang"
+      },
+      {
+        "name": "Zhenwei Li"
+      }
+    ],
+    "affiliations": [
+      "School of Surveying and mapping,CHINA. Wuhan University, 430000,CHINA. ",
+      "School of Surveying and mapping,CHINA. Wuhan University, 430000,CHINA. ",
+      "Changchun Observatory of National Astronomical Observatory,CHINA. Chinese Academy of Sciences, 100101,CHINA. "
+    ],
+    "keywords": [
+      "too-short arc (TSA)",
+      "angles-only initial orbit determination",
+      "ill-conditioned analysis",
+      "geometric constraints",
+      "improved Gooding algorithm"
+    ],
+    "abstract": "The accuracy of angles-only initial orbit determination (IOD) is significantly compromised when only a short-arc orbit is observed. The ill-conditioned problem in matrices due to weak geometric constraints caused by short arcs and observation errors typically causes significant errors in the estimated ranges and thus unsatisfactory IOD. This paper presents a critical analysis of the ill-conditioned problem using the Gooding algorithm and proposes several techniques to improve it. On the basis of multiple observations, a least-squares method is proposed to solve the ranges at the first and last epochs. For the short-arc case, the ridge estimation technique is applied to mitigate the ill-conditioned problem. To determine whether an orbit is eccentric, a procedure to assess orbit eccentricity is developed via the range-search method, which aims to provide reasonably accurate initial ranges to the Gooding algorithm. Finally, an eccentricity-constraint technique for the Gooding algorithm is proposed for cases where the orbit is determined to be nearly circular. The performances of these techniques on space-based simulation data are assessed, and an improved Gooding algorithm (I-Gooding) suitable for various observation conditions is proposed. The I-Gooding algorithm is subsequently applied to process actual ground-based observations. The results show that its accuracy in estimating the semimajor axis is 47% higher than that afforded by the standard Gooding algorithm.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "303",
+    "lastpage": "320",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/4/12",
+    "received": "24 May 2024",
+    "revised": "",
+    "accepted": "08 November 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0251-3",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0251-3.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Attitude Determination and Space Manipulation",
+      "Guidance, Navigation, and Control",
+      "Orbital Dynamics and Trajectory Optimization"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0252-2",
+    "title": "Robust trajectory maneuver scheduling near the flyby of small celestial bodies on the basis of proximal policy optimization",
+    "authors": [
+      {
+        "name": "Hang Hu"
+      },
+      {
+        "name": "Weiren Wu"
+      },
+      {
+        "name": "Jinxiu Zhang"
+      },
+      {
+        "name": "Jihe Wang"
+      },
+      {
+        "name": "Yuqi Song"
+      }
+    ],
+    "affiliations": [
+      "School of Physics and Astronomy,Hainan,CHINA. Sun Yat‐Sen University,Haikou,Hainan,CHINA. ",
+      "Deep Space Exploration Laboratory,School of Physics and Astronomy,Hainan,CHINA. Sun Yat‐Sen University,Haikou,Hainan,CHINA. ",
+      "School of Aeronautics and Astronautics,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "School of Aeronautics and Astronautics,Guangdong,CHINA. Shenzhen Campus of Sun Yat-sen University,Shenzhen,Guangdong,CHINA. ",
+      "Deep Space Exploration Laboratory,"
+    ],
+    "keywords": [
+      "deep space exploration",
+      "spacecraft maneuver",
+      "trajectory scheduling",
+      "proximal policy optimization (PPO)"
+    ],
+    "abstract": "Owing to the large communication delay in deep space exploration missions, trajectory maneuvers prior to the flyby of small celestial bodies generally need to be scheduled in advance. However, the lack of prior data and the presence of environmental uncertainties in deep space are significant challenges for maneuver scheduling. To solve this problem, in this study, robust maneuver scheduling networks based on proximal policy optimization were proposed. A reward function that considers the terminal state accuracy of the spacecraft after maneuvering and the total velocity impulse cost was designed for the maneuver scheduling networks. An additional constant was added to the variance of the actor network to improve the performance of the generated maneuvering strategy. Compared with the actor–critic algorithm and genetic algorithm, the maneuvering strategy generated by the maneuver scheduling networks demonstrated the best performance in most simulation scenarios and maintained a better balance between the terminal state accuracy and the total velocity impulse cost. The robustness of the maneuver strategy against uncertain perturbations in the environment and uncertain initial state deviations of the spacecraft was validated in several maneuver scenarios in the simulation. In addition, the generated maneuvering strategy exhibited excellent real-time performance. The time cost to make a decision was still better than 0.7 s in the worst case, testing on Raspberry Pi 4B with a memory of 4 GB and a limited CPU frequency of 800 MHz. The robustness against uncertainties and real-time capability of the proposed method revealed its potential onboard application to future deep space exploration missions.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "855",
+    "lastpage": "875",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "10 May 2024",
+    "revised": "",
+    "accepted": "11 November 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0252-2",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0252-2.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Mission Analysis and Constellation Design",
+      "Space Systems and Engineering"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0228-2",
+    "title": "Robust twistor-based spacecraft relative pose estimation using unscented Kalman filter",
+    "authors": [
+      {
+        "name": "Mohammed Atallah"
+      },
+      {
+        "name": "Mohamed Okasha"
+      },
+      {
+        "name": "Ossama Abdelkhalik"
+      },
+      {
+        "name": "Tarek N. Dief"
+      }
+    ],
+    "affiliations": [
+      "Mechanical and Aerospace Engineering Department,UNITED ARAB EMIRATES. College of Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. Department of Aerospace Engineering,College of Engineering,Engineering Iowa State University,",
+      "Mechanical and Aerospace Engineering Department,UNITED ARAB EMIRATES. College of Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. ",
+      "Department of Aerospace Engineering,College of Engineering,Engineering Iowa State University,",
+      "Mechanical and Aerospace Engineering Department,UNITED ARAB EMIRATES. College of Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. "
+    ],
+    "keywords": [
+      "twistor",
+      "spacecraft relative navigation",
+      "unscented Kalman filter (UKF)",
+      "stirling interpolation formula (SIF)",
+      "state noise compensation (SNC)"
+    ],
+    "abstract": "This paper presents new methods for spacecraft relative pose estimation using the Unscented Kalman Filter (UKF), taking into account non-additive process and measurement noises. A twistor model is employed to represent the spacecraft's relative 6-DOF motion of the chaser with respect to the target, expressed in the chaser body frame. The twistor model utilizes Modified Rodrigues Parameters (MRPs) to represent attitude with a minimal number of parameters, eliminating the need for the normalization constraint that exists in the quaternion-based model. Additionally, it incorporates both relative position and attitude in a single model, addressing kinematic coupling of states and simplifying the estimator design. Despite numerous existing pose estimation algorithms, many rely on the simplification of additive noise assumptions. This work enhances the robustness and improves the convergence of non-additive noise algorithms by deriving two methods to accurately approximate process and measurement noise covariance matrices for systems with non-additive noises. The first method utilizes the Stirling Interpolation Formula (SIF) to obtain equivalent process and measurement noise covariance matrices. The second method employs State Noise Compensation (SNC) to derive the equivalent process noise covariance matrix and uses SIF to compute the equivalent measurement noise covariance matrix. These methods are integrated into the UKF framework for estimating the relative pose of spacecraft in proximity operations, demonstrated through two scenarios: one with a cooperative target using Position Sensing Diodes (PSDs) and another with an uncooperative target using LiDAR for 3-D imaging. The effectiveness of these methods is validated against others in the literature through Monte Carlo simulations, showcasing their faster convergence and robust performance.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "495",
+    "lastpage": "515",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/8/26",
+    "received": "10 October 2023",
+    "revised": "",
+    "accepted": "31 May 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0228-2",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0228-2.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Attitude Determination and Space Manipulation",
+      "Space Systems and Engineering",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0216-6",
+    "title": "Transcription and optimization of an interplanetary trajectory through quantum annealing",
+    "authors": [
+      {
+        "name": "Federico De Grossi"
+      },
+      {
+        "name": "Andrea Carbone"
+      },
+      {
+        "name": "Dario Spiller"
+      },
+      {
+        "name": "Daniele Ottaviani"
+      },
+      {
+        "name": "Riccardo Mengoni"
+      },
+      {
+        "name": "Christian Circi"
+      }
+    ],
+    "affiliations": [
+      "Sapienza University of Rome, 00184,ITALY. ",
+      "Sapienza University of Rome, 00184,ITALY. ",
+      "Scuola di Ingegneria Aerospaziale,Sapienza University of Rome, 00184,ITALY. ",
+      "CINECA,ITALY. ",
+      "CINECA,ITALY. ",
+      "Sapienza University of Rome, 00184,ITALY. "
+    ],
+    "keywords": [
+      "trajectory optimization",
+      "pseudospectral method",
+      "quantum computing (QC)",
+      "quantum annealing (QA)",
+      "quantum-classical hybrid computing"
+    ],
+    "abstract": "This study employed a quantum-annealing framework to solve spacecraft trajectory optimization problems. Quantum annealing belongs to the field of quantum computing and is a promising technique for tackling hard binary optimization problems by employing quantum annealers. To address the optimal control of a trajectory using quantum annealing, a transcription procedure was introduced to express the problem in the binary optimization form required. The proposed procedure leverages the pseudospectral method to discretize the trajectory and represents the dynamical constraints as algebraic equality constraints at specific nodes. Subsequently, both a linearization procedure and binary representation strategy for the real-valued variables of the problem were presented, leading to the quadratic binary unconstrained optimization form. The quantum-annealing-based method was tested in the context of an interplanetary low-thrust transfer from the Earth to Mars. First, we discussed which instances of the problem, especially in terms of their dimensions, are implementable on currently available quantum annealers; then, a solution was sought by employing annealers from D-Wave systems. Solutions from hybrid solvers that combine classical and quantum resources, and fully quantum solvers were explored. The results demonstrate the validity of the transcription approach, demonstrate the ability of the hybrid solver to tackle the case-study problem, and highlight the promising features and current limitations of practical trajectory optimization with quantum annealing.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "195",
+    "lastpage": "215",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/5/7",
+    "received": "30 October 2023",
+    "revised": "",
+    "accepted": "19 April 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0216-6",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-024-0216-6.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Guidance, Navigation, and Control",
+      "Space Systems and Engineering"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0260-2",
+    "title": "SPTN: Transformer-based spacecraft pose estimation network for space objects tracking",
+    "authors": [
+      {
+        "name": "Yunting Gui"
+      },
+      {
+        "name": "Yifan Qi"
+      },
+      {
+        "name": "Xueming Xiao"
+      },
+      {
+        "name": "Boyu Lin"
+      },
+      {
+        "name": "Hutao Cui"
+      },
+      {
+        "name": "Xiangyu Huang"
+      }
+    ],
+    "affiliations": [
+      "CVIR Lab,CHINA. Changchun University of Science and Technology, 130022,CHINA. ",
+      "CVIR Lab,CHINA. Changchun University of Science and Technology, 130022,CHINA. ",
+      "CVIR Lab,CHINA. Changchun University of Science and Technology, 130022,CHINA. ",
+      "School of Optoelectronic Engineering,CHINA. Changchun University of Science and Technology, 130022,CHINA. ",
+      "Deep Space Exploration Research Center,Heilongjiang,CHINA. Harbin Instituteof Technology,Harbin,Heilongjiang,CHINA. ",
+      "Beijing Institute of Control Engineering, 100094,CHINA. "
+    ],
+    "keywords": [
+      "space pose estimation (SPE)",
+      "transformer model",
+      "space objects tracking",
+      "non-cooperative spacecraft"
+    ],
+    "abstract": "In this work, we presents a novel transformer-based spacecraft pose estimation network, SPTN, for space-object tracking. SPTN consists of a transformer-based backbone with the proposed WBlock module, an innovative neck structure, LBiFPN, and a multitask head. Such a framework will be more effective in feature extraction and fusion while maintaining a lightweight structure compared to CNN-based methods. The proposed WBlock is embedded with window partitioning and hierarchical attention mechanisms to enhance feature extraction. The novel LBiFPN neck module is designed to fuse features at different levels, facilitating a deeper feature integration. Extensive experiments are conducted on the SPEED+ and SHIRT datasets to evaluate the performance of the proposed method. The results show that our SPTN model achieved competitive detection accuracy compared to current state-of-the-art methods while maintaining minimum parameters.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "713",
+    "lastpage": "725",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "31 August 2024",
+    "revised": "",
+    "accepted": "17 December 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0260-2",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0260-2.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Space Systems and Engineering",
+      "Attitude Determination and Space Manipulation",
+      "Mission Analysis and Constellation Design"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0256-y",
+    "title": "Energy efficiency analysis of Spiking Neural Networks for space applications",
+    "authors": [
+      {
+        "name": "Paolo Lunghi"
+      },
+      {
+        "name": "Stefano Silvestrini"
+      },
+      {
+        "name": "Dominik Dold"
+      },
+      {
+        "name": "Gabriele Meoni"
+      },
+      {
+        "name": "Alexander Hadjiivanov"
+      },
+      {
+        "name": "Dario Izzo"
+      }
+    ],
+    "affiliations": [
+      "Department of Aerospace Science and Technology (DAER),ITALY. Politecnico di Milano,ITALY. ",
+      "Department of Aerospace Science and Technology (DAER),ITALY. Politecnico di Milano,ITALY. ",
+      "Advanced Concepts Team,European Space Agency, 2001 AZ,",
+      "Advanced Concepts Team,European Space Agency, 2001 AZ,Φ-lab,European Space Agency, 2001 AZ,",
+      "Advanced Concepts Team,European Space Agency, 2001 AZ,",
+      "Advanced Concepts Team,European Space Agency, 2001 AZ,"
+    ],
+    "keywords": [
+      "Spiking Neural Networks (SNN)",
+      "spacecraft autonomy",
+      "energy consumption",
+      "interdisciplinary research"
+    ],
+    "abstract": "While the exponential growth of the space sector and new operative concepts ask for higher spacecraft autonomy, the development of AI-assisted space systems was so far hindered by the low availability of power and energy typical of space applications. In this context, Spiking Neural Networks (SNN) are highly attractive because of their theoretically superior energy efficiency due to their inherently sparse activity induced by neurons communicating by means of binary spikes. Nevertheless, the ability of SNN to reach such efficiency on real world tasks is still to be demonstrated in practice. To evaluate the feasibility of utilizing SNN onboard spacecraft, this work presents a numerical analysis and comparison of different SNN techniques applied to scene classification for the EuroSAT dataset. Such tasks are of primary importance for space applications and constitute a valuable test case given the abundance of competitive methods available to establish a benchmark. Particular emphasis is placed on models based on temporal coding, where crucial information is encoded in the timing of neuron spikes. These models promise even greater efficiency of resulting networks, as they maximize the sparsity properties inherent in SNN. A reliable metric capable of comparing different architectures in a hardware-agnostic way is developed to establish a clear theoretical dependence between architecture parameters and the energy consumption that can be expected onboard the spacecraft. The potential of this novel method and its flexibility to describe specific hardware platforms is demonstrated by its application to predicting the energy consumption of a BrainChip Akida AKD1000 neuromorphic processor.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "909",
+    "lastpage": "932",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "17 August 2024",
+    "revised": "",
+    "accepted": "24 November 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0256-y",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0256-y.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Guidance, Navigation, and Control",
+      "Space Systems and Engineering"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0235-3",
+    "title": "Hybrid electrostatic ion beam shepherd schemes for active space debris removal from GEO to disposal orbit",
+    "authors": [
+      {
+        "name": "Alexander Ledkov"
+      },
+      {
+        "name": "Vladimir Aslanov"
+      }
+    ],
+    "affiliations": [
+      "Theoretical Mechanics Department,RUSSIAN FEDERATION. Samara National Research University,RUSSIAN FEDERATION. ",
+      "Theoretical Mechanics Department,RUSSIAN FEDERATION. Samara National Research University,RUSSIAN FEDERATION. "
+    ],
+    "keywords": [
+      "space debris removal",
+      "ion beam shepherd (IBS)",
+      "electrostatic field",
+      "Coulomb force",
+      "orbital debris"
+    ],
+    "abstract": "The removal of large space debris from a geostationary orbit to a disposal orbit via an ion beam shepherd spacecraft was considered in this study, with attention given to the electrostatic effect. The generation of an ion force, which provides contactless thrust, occurs because of the transfer of momentum from the ions of the engine plume of the spacecraft to the space debris. This process is accompanied by the transfer of a positive charge to the space debris. As a result, electrostatic interactions occur between the spacecraft and space debris. The goals of this study were to assess the influence of this effect on the dynamics of space debris during contactless ion beam-assisted removal and to develop hybrid contactless transportation schemes based on the use of an ion beam and electrostatic interactions. A mathematical model describing the motion of space debris and spacecraft under the influence of ionic and electrostatic forces and torques was developed. The concepts of electrostatic ion beam shepherd, electrostatic tractor with ion beam, and charged ion beam shepherd were proposed and compared. The results of numerical simulations revealed that the electrostatic ion beam shepherd scheme is preferable from the perspective of minimizing fuel costs when solving the problem of removing space debris from a geostationary orbit. A control law for the spacecraft charge needed for space-debris detumbling during ion-beam transportation is proposed. A numerical simulation of space debris removal was performed via a hybrid scheme.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "273",
+    "lastpage": "288",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/4/12",
+    "received": "22 March 2024",
+    "revised": "",
+    "accepted": "02 July 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0235-3",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0235-3.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Space Environment and Space Debris",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0233-5",
+    "title": "Application of singular perturbation theory to space flight dynamics problems",
+    "authors": [
+      {
+        "name": "Danilo Zona"
+      },
+      {
+        "name": "Giulio Avanzini"
+      },
+      {
+        "name": "Fabrizio Giulietti"
+      },
+      {
+        "name": "Alessandro Palmas"
+      }
+    ],
+    "affiliations": [
+      " Department of Engineering for Innovation,University of Salento, 73100,ITALY. ",
+      " Department of Engineering for Innovation,University of Salento, 73100,ITALY. ",
+      "Department of Industrial Engineering DIN,ITALY. University of Bologna,ITALY. ",
+      "James Watt School of Engineering,苏格兰,UNITED KINGDOM. University of Glasgow,格拉斯哥,苏格兰,UNITED KINGDOM. "
+    ],
+    "keywords": [
+      "orbit decay",
+      "low-thrust trajectories",
+      "singular perturbation theory",
+      "two-timescale approximations"
+    ],
+    "abstract": "Singular perturbation theory is applied for analytically estimating the effects of small acceleration terms on spacecraft orbital dynamics, which are representative of the action of a drag force or of an electric low-thrust propulsion system. The effects of density variation with altitude and thrust magnitude as a function of distance from the primary body are included in the analysis. Comparisons with results obtained from numerical integration and other analytical and semianalytical methods demonstrate the validity of the approach in predicting the secular variation of orbit parameters in planar motion, with advantages in terms of accuracy and/or computational cost with respect to other approximations.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "753",
+    "lastpage": "772",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "03 May 2024",
+    "revised": "",
+    "accepted": "24 June 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0233-5",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0233-5.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Space Systems and Engineering",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0237-1",
+    "title": "A goal-oriented guidance approach for binary asteroids exploration",
+    "authors": [
+      {
+        "name": "Antonio Rizza"
+      },
+      {
+        "name": "Carmine Giordano"
+      },
+      {
+        "name": "Francesco Topputo"
+      }
+    ],
+    "affiliations": [
+      "Department of Aerospace Science and Technology (DAER),ITALY. Politecnico di Milano,ITALY. ",
+      "Department of Aerospace Science and Technology (DAER),ITALY. Politecnico di Milano,ITALY. ",
+      "Department of Aerospace Science and Technology (DAER),ITALY. Politecnico di Milano,ITALY. "
+    ],
+    "keywords": [
+      "autonomous guidance",
+      "goal-oriented",
+      "rechability analysis",
+      "small bodies"
+    ],
+    "abstract": "Operations in proximity of minor bodies demands high levels of autonomy to achieve cost-effective safe and reliable solutions. Autonomous trajectory and operations planning capability plays a pivotal role in this. A goal-oriented guidance strategy for on-board implementation is presented in this paper to achieve high level mission objectives with impulsive control capability. The methodology is based on abstract reachability analysis performed on the control domain combining model predictive control theory with artificial potential fields algorithms. The formulation of the optimization problem in a general and flexible way allows to target different goals while being compliant with an arbitrary number of mission constraints. In particular, two main contributions to the field are proposed in this work: a way of embedding non-uniform observation constraints in the formulation to deal with challenging illumination conditions, and the inclusion of specific operational constraints to be compliant both with ground operations and on-board replanning. The methodology is applied to the Milani mission, one of the two Hera’s CubeSats, targeting a global coverage of the main attractor, Didymos, and detailed observations of specific features on the secondary asteroid, Dimorphos. The authors, being involved in the mission analysis, image processing, and GNC design of the platform, believe that this methodology also represents a viable tool for efficiently generating flight dynamics references during operations. Different metrics are investigated to achieve mission objectives leading to four application scenarios that are discussed in this work. Results are compared in terms of computational cost, convergence properties and efficiency. These results represent a step forward in enabling autonomous guidance capability for CubeSats proximity operations.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "289",
+    "lastpage": "302",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/5/16",
+    "received": "28 February 2024",
+    "revised": "",
+    "accepted": "21 July 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0237-1",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0237-1.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Guidance, Navigation, and Control",
+      "Advanced Concepts and Space Intelligence",
+      "Mission Analysis and Constellation Design"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0236-2",
+    "title": "Trajectory design for awaiting comets on invariant manifolds with optimal control",
+    "authors": [
+      {
+        "name": "Soi Yamaguchi"
+      },
+      {
+        "name": "Naoki Hiraiwa"
+      },
+      {
+        "name": "Mai Bando"
+      },
+      {
+        "name": "Shinji Hokamoto"
+      },
+      {
+        "name": "Damennick B. Henry"
+      },
+      {
+        "name": "Daniel J. Scheeres"
+      }
+    ],
+    "affiliations": [
+      "Department of Aeronautics and Astronautics,JAPAN. Kyushu University, 819-0395,JAPAN. ",
+      "Department of Aeronautics and Astronautics,JAPAN. Kyushu University, 819-0395,JAPAN. ",
+      "Department of Aeronautics and Astronautics,JAPAN. Kyushu University, 819-0395,JAPAN. ",
+      "Department of Aeronautics and Astronautics,JAPAN. Kyushu University, 819-0395,JAPAN. ",
+      "Department of Aerospace Engineering Sciences,科罗拉多州,UNITED STATES. The University of Colorado, Boulder,博尔德市,科罗拉多州,UNITED STATES. ",
+      "Department of Aerospace Engineering Sciences,科罗拉多州,UNITED STATES. The University of Colorado, Boulder,博尔德市,科罗拉多州,UNITED STATES. "
+    ],
+    "keywords": [
+      "CRTBP",
+      "low-thrust",
+      "invariant tori",
+      "optimal control",
+      "spacecraft formation flying"
+    ],
+    "abstract": "Comet exploration missions represented by the Comet Interceptor mission have attracted our attention to unravel the origin of our solar system. However, it is difficult to know the details of orbital data about long period comets (LPCs) until their approach. Additionally, the amount of fuel consumption by the current intercept approach depends on the intersection points of cometary orbits with the ecliptic plane. To address these challenges, designing low-energy transfer trajectories suitable for the observation of LPCs is necessary. This paper introduces a novel approach by utilizing invariant manifold structures in the Sun–Earth circular restricted three-body problem for comet missions with multiple probes. As candidates for departure orbits, periodic orbits and quasi-periodic orbits are considered. Based on the optimal control theory, low-thrust trajectories to improve mission efficiency for enlarging the reachable domain of multiple probes are designed by leveraging invariant manifolds. The trajectories guided by invariant manifolds and optimal control theory facilitate formation flying, multi-point observations, and explorations of unknown comets by multiple probes.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "565",
+    "lastpage": "581",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/8/29",
+    "received": "29 March 2024",
+    "revised": "",
+    "accepted": "02 July 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0236-2",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0236-2.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Guidance, Navigation, and Control",
+      "Mission Analysis and Constellation Design"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0259-8",
+    "title": "Concurrent optimization of modular robots for planetary landforms: A terrain-guided approach based on STGCN-GA",
+    "authors": [
+      {
+        "name": "Peng Zhao"
+      },
+      {
+        "name": "Meibao Yao"
+      },
+      {
+        "name": "Xueming Xiao"
+      },
+      {
+        "name": "Hutao Cui"
+      }
+    ],
+    "affiliations": [
+      " School of Artificial Intelligence,Jilin University, 130012,CHINA. ",
+      " School of Artificial Intelligence,Jilin University, 130012,CHINA. ",
+      "CVIR Lab,CHINA. Changchun University of Science and Technology, 130022,CHINA. ",
+      "Deep Space Exploration Research Center,Heilongjiang,CHINA. Harbin Instituteof Technology,Harbin,Heilongjiang,CHINA. "
+    ],
+    "keywords": [
+      "modular robotics",
+      "evolutionary optimization",
+      "graph neural network",
+      "terrain-guided planning"
+    ],
+    "abstract": "Modular robots can adapt to various task scenarios and environments by rearranging their structural components and dimensions. However, their potential for versatility has not been fully explored in nonlaboratory environments, particularly on unstructured planetary terrains. This difficulty lies in the fact that the morphology and behavior of modular robots are highly intertwined with the terrain on which they stand. Achieving a concurrent design of robot configuration and motion strategy is essential to preserve the optimality of the reconfiguration schemes, as the completeness of the solution space can only be guaranteed if both are considered simultaneously. However, it is also challenging owing to the enormous joint candidate space. Existing research based on evolutionary algorithms, machine learning, or hybrid methods suffer from a range of limitations such as low goal-orientation and inadequate feature utilization. To this end, we incorporate a terrain-guided module and the spatio-temporal graph convolutional network architecture into the co-optimization framework to guide the optimization using agent features in both the spatial and temporal dimensions, which further accelerates the search and enhances the adaptability of modular robots. We conducted simulations using the Webots platform to validate our proposed method. Comparative studies showed that our framework produced reconfiguration schemes that exhibit highly efficient and appropriate morphology and behavioral adaptations toward several terrains.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "689",
+    "lastpage": "711",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "27 August 2024",
+    "revised": "",
+    "accepted": "03 December 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0259-8",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0259-8.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0244-2",
+    "title": "Descent-trajectory planning of a multi-node flexible small celestial body lander in hazardous terrains",
+    "authors": [
+      {
+        "name": "Jingxuan Chai"
+      },
+      {
+        "name": "Youmin Gong"
+      },
+      {
+        "name": "Jie Mei"
+      },
+      {
+        "name": "Guangfu Ma"
+      },
+      {
+        "name": "Weiren Wu"
+      }
+    ],
+    "affiliations": [
+      " Institute of Space Science and Applied Technology,CHINA. Harbin Institute of Technology (Shenzhen), 518055,CHINA. ",
+      "School of Mechanical Engineering and Automation,CHINA. Harbin Institute of Technology (Shenzhen), 518055,CHINA. ",
+      "School of Mechanical Engineering and Automation,CHINA. Harbin Institute of Technology (Shenzhen), 518055,CHINA. ",
+      "School of Mechanical Engineering and Automation,CHINA. Harbin Institute of Technology (Shenzhen), 518055,CHINA. ",
+      " Institute of Space Science and Applied Technology,CHINA. Harbin Institute of Technology (Shenzhen), 518055,CHINA. "
+    ],
+    "keywords": [
+      "small celestial body landing",
+      "vector field",
+      "flow field",
+      "trajectory planning",
+      "multi-node flexible lander"
+    ],
+    "abstract": "Traditional landers typically encounter difficulties achieving stable landings because of the weak gravity and complex terrain of small celestial bodies. A multi-node lander with flexible connections can improve the stability of a small celestial body landing. However, this also poses new challenges, particularly for landing guidance in hazardous terrain. To address this problem, an equivalent simplified dynamic model of a multi-node flexible lander is first constructed, and its flat output is determined. Subsequently, a trajectory-planning method combining the flow and vector fields is designed to avoid collision, and the parameters of the vector field are optimized online according to the dynamic and obstacle constraints during the descent process to obtain a more suitable trajectory. Finally, the effectiveness of the proposed trajectory-planning method is verified through comparative simulations of landing and obstacle avoidance from the hover point to the landing area. This study offers new prospects for upcoming small celestial body landing missions in complex terrains.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "605",
+    "lastpage": "619",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/7/28",
+    "received": "28 May 2024",
+    "revised": "",
+    "accepted": "30 September 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0244-2",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0244-2.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0222-8",
+    "title": "Combined trajectory and time-planning strategy for rendezvous missions using low-thrust transfer",
+    "authors": [
+      {
+        "name": "Jia Guo"
+      },
+      {
+        "name": "Zhaojun Pang"
+      },
+      {
+        "name": "Zhonghua Du"
+      }
+    ],
+    "affiliations": [
+      "School of Mechanical Engineering, Nanjing University of Science and Technology,",
+      "School of Mechanical Engineering, Nanjing University of Science and Technology,",
+      "School of Mechanical Engineering, Nanjing University of Science and Technology,"
+    ],
+    "keywords": [
+      "low-thrust transfer",
+      "orbit optimization",
+      "shape-based method",
+      "space debris"
+    ],
+    "abstract": "In this study, a combined trajectory and time-planning strategy is proposed to reduce the fuel consumption of low-thrust rendezvous missions. First, a transformation method was developed to adjust the independent variable such that results obtained using the shape-based algorithm that employs an inverse polynomial can be used as an initial guess for a pseudospectral method. Second, a planning strategy that combined low-thrust transfer trajectory optimization and boundary condition optimization was designed. This planning strategy was divided into outer and inner layers. The outer plan optimized waiting and transfer times and thus determined boundary conditions. The inner plan optimized the low-thrust transfer trajectory using the pseudospectral method. The inner plan was embedded in the outer plan. Numerical simulations show that the independent variable transformation method is feasible, and the combined use of the shape-based algorithm with the inverse polynomial and pseudospectral method ensures good convergence. The cost of rendezvous missions is significantly decreased using combined trajectory and time optimization.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "481",
+    "lastpage": "493",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/8/7",
+    "received": "14 December 2023",
+    "revised": "",
+    "accepted": "20 May 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0222-8",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0222-8.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Mission Analysis and Constellation Design",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0238-0",
+    "title": "Thermal deformation analysis and shape control of a novel large-scale two-dimensional planar phased array antenna",
+    "authors": [
+      {
+        "name": "Chaochen Jin"
+      },
+      {
+        "name": "Xiang Liu"
+      },
+      {
+        "name": "Guoping Cai"
+      },
+      {
+        "name": "Jun Sun"
+      },
+      {
+        "name": "Dongfang Zhu"
+      }
+    ],
+    "affiliations": [
+      "Department of Engineering Mechanics,CHINA. School of Naval Architecture, Ocean & Civil Engineering,CHINA. Shanghai Jiao Tong University, 200240,CHINA. MOE Key Laboratory of Hydrodynamics,CHINA. Department of Engineering Mechanics,CHINA. Shanghai Jiao Tong University, 200240,CHINA. ",
+      "Department of Engineering Mechanics,CHINA. School of Naval Architecture, Ocean & Civil Engineering,CHINA. Shanghai Jiao Tong University, 200240,CHINA. MOE Key Laboratory of Hydrodynamics,CHINA. Department of Engineering Mechanics,CHINA. Shanghai Jiao Tong University, 200240,CHINA. ",
+      "Department of Engineering Mechanics,CHINA. School of Naval Architecture, Ocean & Civil Engineering,CHINA. Shanghai Jiao Tong University, 200240,CHINA. MOE Key Laboratory of Hydrodynamics,CHINA. Department of Engineering Mechanics,CHINA. Shanghai Jiao Tong University, 200240,CHINA. ",
+      "Shanghai Aerospace Control Technology Institute,Shanghai,CHINA.  Shanghai Key Laboratory of Aerospace Intelligent Control Technology,Shanghai,CHINA. ",
+      "Shanghai Aerospace Control Technology Institute,Shanghai,CHINA.  Shanghai Key Laboratory of Aerospace Intelligent Control Technology,Shanghai,CHINA. "
+    ],
+    "keywords": [
+      "large-scale two-dimensional planar phased array antenna",
+      "thermal load",
+      "thermal finite element method",
+      "shape control",
+      "actuator optimization",
+      "layered optimization"
+    ],
+    "abstract": "The performance of space antennas is significantly affected by thermal deformation owing to the harsh thermal environment in space. This results in potential degradation in pointing accuracy and overall functionality. This study focused on the analysis and control of thermal deformation in large-scale two-dimensional planar phased array antennas. Employing the finite element method, we developed a comprehensive thermal and structural model of the antenna. This enabled us to simulate the steady-state temperature field and the associated thermal deformation at various orbital positions. To address this deformation issue, we propose an innovative shape-control approach that utilizes distributed cable actuators. The shape control challenge was reformulated into a layered optimization problem concerning actuator placement and force application. In the outer optimization layer, a discrete particle swarm optimization algorithm was used to determine the optimal locations for the actuators. In the inner optimization layer, quadratic programming was subsequently applied to calculate the optimal control forces for each actuator. We validated the proposed method by numerically simulating a novel large-scale two-dimensional planar phased array antenna. The results demonstrated the effectiveness of our method in mitigating thermal deformation and maintaining the structural integrity and shape accuracy of the antennas.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "583",
+    "lastpage": "604",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/8/27",
+    "received": "15 March 2024",
+    "revised": "",
+    "accepted": "22 July 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0238-0",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0238-0.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Space Systems and Engineering",
+      "Guidance, Navigation, and Control",
+      "Orbital Dynamics and Trajectory Optimization"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0229-1",
+    "title": "Target marker deployment strategies for Hayabusa2 extended mission to fast rotator 1998 KY26",
+    "authors": [
+      {
+        "name": "Anivid Pedros-Faura"
+      },
+      {
+        "name": "Mirko Trisolini"
+      },
+      {
+        "name": "Yuichi Tsuda"
+      },
+      {
+        "name": "Daniel J. Scheeres"
+      },
+      {
+        "name": "Shota Kikuchi"
+      },
+      {
+        "name": "Jay W. McMahon"
+      }
+    ],
+    "affiliations": [
+      "Ann and H.J. Smead Department of Aerospace Engineering Sciences,University of Colorado Boulder, 80309,",
+      "Department of Aerospace Science and Technology,ITALY. Politecnico di Milano, 20156,ITALY. ",
+      "Institute of Space and Astronautical Science,JAPAN. Japan Aerospace Exploration Agency, 252-5210,JAPAN. ",
+      "Ann and H.J. Smead Department of Aerospace Engineering Sciences,University of Colorado Boulder, 80309,",
+      "National Astronomical Observatory of Japan,Tokyo ,JAPAN. ",
+      "Ann and H.J. Smead Department of Aerospace Engineering Sciences,University of Colorado Boulder, 80309,"
+    ],
+    "keywords": [
+      "target marker (TM)",
+      "Hayabusa2#",
+      "fast rotator",
+      "surface dynamics",
+      "natural motion"
+    ],
+    "abstract": "The Hayabusa2 extended mission, named Hayabusa2# (SHARP: Small Hazardous Asteroid Reconnaissance Probe), is planned to rendezvous with the fast-rotating asteroid 1998 KY26 in 2031. Hayabusa2# will be the first ever mission to rendezvous with such a rapidly rotating small asteroid, posing significant challenges because of its distinctive dynamical environment. In this paper, we investigate potential target marker (TM) deployment strategies, for both landing and orbiting scenarios, to maximize science acquisition. In particular, we model the surface and orbital environments to identify feasible target market operations and present landing site selection strategies and candidate insertion orbits considering realistic deployment errors. The TM is one of the only two remaining deployable payloads, and therefore, can play a critical role during the extended mission phase. Our results show that surface operations can be extremely challenging whereas orbit operations could help us gain valuable information on the asteroid's gravity field. Overall, this research contributes to the exploration and characterization of extremely small bodies specifically through the use of artificial objects, in this case the target marker.",
+    "volume": 9,
+    "issue": 4,
+    "firstpage": "517",
+    "lastpage": "536",
+    "year": 2025,
+    "publication_date": "2025/8/1",
+    "online_date": "2025/8/23",
+    "received": "30 October 2023",
+    "revised": "",
+    "accepted": "03 June 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0229-1",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-024-0229-1.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Space Systems and Engineering",
+      "Mission Analysis and Constellation Design",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0257-x",
+    "title": "Trajectory prediction algorithm based on maneuver analysis for hypersonic glide vehicles in a deep neural network",
+    "authors": [
+      {
+        "name": "Xinru Liang"
+      },
+      {
+        "name": "Changsheng Gao"
+      },
+      {
+        "name": "Wuxing Jing"
+      }
+    ],
+    "affiliations": [
+      "School of Astronautics,Heilongjiang,CHINA. Harbin Instituteof Technology,Harbin,Heilongjiang,CHINA. ",
+      "School of Astronautics,Heilongjiang,CHINA. Harbin Instituteof Technology,Harbin,Heilongjiang,CHINA. ",
+      "School of Astronautics,Heilongjiang,CHINA. Harbin Instituteof Technology,Harbin,Heilongjiang,CHINA. "
+    ],
+    "keywords": [
+      "trajectory prediction",
+      "maneuver analysis",
+      "long-sequence time series",
+      "near space",
+      "sequence-to-sequence model"
+    ],
+    "abstract": "A long time series prediction of hypersonic glide vehicles (HGVs) is urgently needed to fulfill the increasing defense demand since trajectory prediction is crucial for fight intention inference, threat assessment, and vehicle interception in near space. To address this issue, a trajectory prediction algorithm based on maneuver analysis under a neural network is proposed for HGVs. From a dynamic perspective, trajectory prediction can be mapped as a time series prediction by maneuvering parameters. First, a new set of maneuvering parameters is extracted from the maneuvering mode analysis, which aids the fast Fourier transform (FFT) method in the trajectory classification implementation. Subsequently, the equilibrium glide trajectory can be forecasted by employing a novel trajectory modeling algorithm based on the autoregression method. Moreover, the trajectory with a large number of maneuvers that exceeds the proper threshold value is addressed via the error compensation method and the intelligent prediction algorithm. The error compensation method eliminates the disadvantages arising from the limited window length but low frequency of the trajectory data under periodic variation and the anisotropy of the prediction capacity in different dimensions. Finally, the advanced self-attention and distilling mechanism and generative style encoder implementations are introduced to improve the prediction capacity in the Transformer framework, which ensures the time sensitivity of the improved prediction algorithm to meet the defense purpose. The extensive flight scenarios of the HGVs demonstrate that the novel algorithm outperforms the existing trajectory prediction algorithms.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "933",
+    "lastpage": "952",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "20 August 2024",
+    "revised": "",
+    "accepted": "20 November 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0257-x",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0257-x.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0241-5",
+    "title": "Sustainable Asteroid Mining: Results and methods of team BIT-CAS-DFH for GTOC12",
+    "authors": [
+      {
+        "name": "Bo Pang"
+      },
+      {
+        "name": "Yangyuxi Sun"
+      },
+      {
+        "name": "Guoxu Zhang"
+      },
+      {
+        "name": "Yining Zhang"
+      },
+      {
+        "name": "Tianhao Zhu"
+      },
+      {
+        "name": "Yangxin Wang"
+      },
+      {
+        "name": "Zihan Jin"
+      },
+      {
+        "name": "Zhaohang Li"
+      },
+      {
+        "name": "Lvzheng He"
+      },
+      {
+        "name": "Meng Lu"
+      },
+      {
+        "name": "Rui Zhou"
+      },
+      {
+        "name": "Yongchen Yin"
+      },
+      {
+        "name": "Yunong Shang"
+      },
+      {
+        "name": "Shengmao He"
+      },
+      {
+        "name": "Chao Peng"
+      },
+      {
+        "name": "Zhengfan Zhu"
+      },
+      {
+        "name": "Yang Zhang"
+      },
+      {
+        "name": "Yang Gao"
+      },
+      {
+        "name": "Changxuan Wen"
+      }
+    ],
+    "affiliations": [
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "Beijing Institute of Astronautical Systems Engineering,Beijing,Beijing,CHINA. School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      " University of Chinese Academy of Sciences,",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "DFH Satellite Company,",
+      " University of Chinese Academy of Sciences,",
+      " University of Chinese Academy of Sciences,",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "Key Laboratory of Space Utilization,CHINA. Technology and Engineering Center for Space Utilization,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "Key Laboratory of Space Utilization,CHINA. Technology and Engineering Center for Space Utilization,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "DFH Satellite Company,",
+      "Aerospace Information Research Institute,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      " University of Chinese Academy of Sciences,Key Laboratory of Space Utilization,CHINA. Technology and Engineering Center for Space Utilization,CHINA. Chinese Academy of Sciences, 100101,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. "
+    ],
+    "keywords": [
+      "Global Trajectory Optimization Competition",
+      "sustainable asteroid mining",
+      "multiple asteroid rendezvous",
+      "low-thrust trajectory optimization"
+    ],
+    "abstract": "The 12th Global Trajectory Optimization Competition challenged teams to design trajectories for mining asteroids and transporting extracted resources back to the Earth. This paper outlines the methods and results of the runner-up team, BIT-CAS-DFH, highlighting an overall analysis of the approach as well as detailed descriptions of the methods used. The approach begins with building databases to reduce computational costs in trajectory design. Then, asteroid sequences are determined. A segmentation-based approach was adopted to efficiently handle the large dataset. Each sequence was divided into four time-based segments. Segments 1 and 4 were generated forward and backward, respectively, using a breadth-first beam search. Candidates for these segments were refined using genetic and greedy algorithms. Segments 2 and 3 were then generated and selected forward and backward based on the results of Segments 1 and 4. Following this, a matching process paired candidates from Segments 2 and 3. With the asteroid sequences established, low-thrust trajectories were optimized using indirect methods. A local optimization strategy was employed to maximize the collected mass by fine-tuning rendezvous timings. The final solution is presented, with comparative analyses against other teams' approaches.",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "107",
+    "lastpage": "128",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "21 June 2024",
+    "revised": "",
+    "accepted": "01 September 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0241-5",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0241-5.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Mission Analysis and Constellation Design",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-023-0184-2",
+    "title": "Learning-based multi-level impact point prediction method for long-range vehicles under the influence of a disturbing gravity field",
+    "authors": [
+      {
+        "name": "Leliang Ren"
+      },
+      {
+        "name": "Yong Xian"
+      },
+      {
+        "name": "Shaopeng Li"
+      },
+      {
+        "name": "Daqiao Zhang"
+      },
+      {
+        "name": "Bing Li"
+      },
+      {
+        "name": "Weilin Guo"
+      }
+    ],
+    "affiliations": [
+      "Xi’an Research Institute of High Technology,Xi'an,Shanxi,CHINA. ",
+      "Xi’an Research Institute of High Technology,Xi'an,Shanxi,CHINA. ",
+      "Department of Automation,CHINA. Tsinghua University, 100084,CHINA. Xi’an Research Institute of High Technology,Xi'an,Shanxi,CHINA. ",
+      "Xi’an Research Institute of High Technology,Xi'an,Shanxi,CHINA. ",
+      "Xi’an Research Institute of High Technology,Xi'an,Shanxi,CHINA. ",
+      "Xi’an Satellite Control Center,"
+    ],
+    "keywords": [
+      "impact point prediction (IPP)",
+      "disturbing gravity field",
+      "neural network (NN)",
+      "curriculum learning",
+      "elliptical trajectory",
+      "single-chip microcomputer"
+    ],
+    "abstract": "The influence of a disturbing gravity field on the impact points of long-range vehicles (LRVs) has become increasingly prominent, which is an important factor affecting the accuracy of impact point prediction (IPP). To achieve high-accuracy and fast IPP for LRVs under the influence of a disturbing gravity field, a data-driven multi-level IPP method is proposed to balance the prediction accuracy and real-time performance. At the first level, the impact point of the current flight state is predicted based on elliptical trajectory theory, and the impact deviation of the elliptical trajectory (ID-ET) is calculated. At the second and third levels, a neural network (NN) model is established to learn the ID-ET caused by the J2 term and re-entry aerodynamic drag as well as that caused by the disturbing gravity field. To improve the NN prediction performance, an auxiliary circle is applied to decouple the ID-ET. To reduce the difficulty of NN learning, a training strategy is designed based on the idea of curriculum learning, which improves training accuracy. At the same time, a hybrid sample generation strategy is proposed to improve the NN generalization ability. A detailed simulation experiment is designed to analyze the advantages and computational complexity of the proposed method. The simulation results showed that the proposed model has a high prediction accuracy, strong generalization ability, and good real-time performance under the influence of the disturbing gravity field and re-entry aerodynamic drag. Among the 317,360 samples contained in the training and test sets, the 3σ prediction error was 6.21 m. On an STM32F407 single-chip microcomputer, the IPP required 3.415 ms. The proposed method can provide support for the design of guidance algorithms and is applicable to engineering practice.",
+    "volume": 9,
+    "issue": 3,
+    "firstpage": "321",
+    "lastpage": "342",
+    "year": 2025,
+    "publication_date": "2025/6/1",
+    "online_date": "2025/7/16",
+    "received": "30 May 2023",
+    "revised": "",
+    "accepted": "14 September 2023",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-023-0184-2",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-023-0184-2.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Guidance, Navigation, and Control",
+      "Advanced Concepts and Space Intelligence",
+      "Orbital Dynamics and Trajectory Optimization"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-025-0296-y",
+    "title": "Correction to: Robust twistor-based spacecraft relative pose estimation using unscented Kalman filter",
+    "authors": [
+      {
+        "name": "Mohammed Atallah"
+      },
+      {
+        "name": "Mohamed Okasha"
+      },
+      {
+        "name": "Ossama Abdelkhalik"
+      },
+      {
+        "name": "Tarek N. Dief"
+      }
+    ],
+    "affiliations": [
+      "Department of Aerospace Engineering,Iowa State University, 50011,Department of Mechanical and Aerospace Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. ",
+      "Department of Mechanical and Aerospace Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. ",
+      "Department of Aerospace Engineering,Iowa State University, 50011,",
+      "Department of Mechanical and Aerospace Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. "
+    ],
+    "keywords": [
+      "twistor",
+      "spacecraft relative navigation",
+      "unscented Kalman filter (UKF)",
+      "stirling interpolation formula (SIF)",
+      "state noise compensation (SNC)"
+    ],
+    "abstract": "",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "1015",
+    "lastpage": "1015",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "",
+    "revised": "",
+    "accepted": "",
+    "published": "",
+    "type": "Erratum",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-025-0296-y",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-025-0296-y.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": []
+  },
+  {
+    "doi": "10.1007/s42064-024-0199-3",
+    "title": "Sustainable Asteroid Mining: On the design of GTOC12 problem and summary of results",
+    "authors": [
+      {
+        "name": "Zhong Zhang"
+      },
+      {
+        "name": "Nan Zhang"
+      },
+      {
+        "name": "Xiang Guo"
+      },
+      {
+        "name": "Di Wu"
+      },
+      {
+        "name": "Xuan Xie"
+      },
+      {
+        "name": "Jia Yang"
+      },
+      {
+        "name": "Fanghua Jiang"
+      },
+      {
+        "name": "Hexi Baoyin"
+      }
+    ],
+    "affiliations": [
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Tsinghua University, 100084,CHINA. "
+    ],
+    "keywords": [
+      "Global Trajectory Optimization Competition (GTOC)",
+      "trajectory optimization",
+      "low thrust",
+      "asteroid mining"
+    ],
+    "abstract": "Tsinghua University and the Shanghai Institute of Satellite Engineering organized the 12th edition of the Global Trajectory Optimization Competition (GTOC12) on June 19, 2023. The problem for GTOC12, entitled \"Sustainable Asteroid Mining\", explores how spacecraft can be dispatched from the Earth to various asteroids for resource extraction. The primary challenge involves designing coupled trajectories for multiple spacecraft to maximize the collected mineral mass. A novel game model is introduced to encourage the mining of rarely mined asteroids. GTOC12 saw significant participation, with 102 teams registered. By the end of the competition, 28 teams provided feasible solutions, highlighting a growing interest in the field. This study describes the design process of the GTOC12 problem and presents a review and analysis of the results from the participating teams.",
+    "volume": 9,
+    "issue": 1,
+    "firstpage": "3",
+    "lastpage": "17",
+    "year": 2025,
+    "publication_date": "2025/2/1",
+    "online_date": "2025/3/4",
+    "received": "13 November 2023",
+    "revised": "",
+    "accepted": "08 January 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0199-3",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0199-3.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Mission Analysis and Constellation Design",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0217-5",
+    "title": "Delta-k approach for space surveillance multireceiver radars",
+    "authors": [
+      {
+        "name": "Marco Felice Montaruli"
+      },
+      {
+        "name": "Pierluigi Di Lizia"
+      },
+      {
+        "name": "Stefano Tebaldini"
+      },
+      {
+        "name": "Germano Bianchi"
+      }
+    ],
+    "affiliations": [
+      "Department of Science and Technology,ITALY. Politecnico di Milano,ITALY. ",
+      "Department of Science and Technology,ITALY. Politecnico di Milano,ITALY. ",
+      "Department of Electronics, Information and Bioengineering,ITALY. Politecnico di Milano,ITALY. ",
+      "Institute for Radioastronomy,ITALY. National Institute of Astrophysics,ITALY. "
+    ],
+    "keywords": [
+      "resident space objects",
+      "space surveillance and tracking (SST)",
+      "space debris",
+      "multiple signal classification (MUSIC)",
+      "radar array"
+    ],
+    "abstract": "The increasing population of resident space objects is currently fostering many space surveillance initiatives. In this framework, on-ground multireceiver radars allow to reconstruct the target angular track, but the array configuration may cause the presence of multiple solutions and, if no pass prediction is available, the ambiguity cannot be solved a-priori. This work proposes an evolution of the Music Approach for Track Estimate and Refinement (MATER) algorithm. Given two different signals reflected by the same target, at each observation epoch their Direction Of Arrival (DOA) is estimated from the signal Covariance Matrix (CM) through the MUltiple SIgnal Classification (MUSIC) algorithm. Then, the possible ambiguous estimations are solved through the delta-k technique: the correct DOA is considered as the one featuring the smallest angular deviation comparing the two CM results. This process is repeated for all the epochs, and the DOAs are clustered according to the RANdom SAmple Consensus (RANSAC) algorithm. Finally, the most populated cluster is considered as the correct one, and the angular track is computed through a time regression of the two angular coordinates. The evolution of MATER algorithm is tested through numerical simulations. The algorithm converges to the correct solution in 100% of the cases, with an angular accuracy in the order of 1–10 mdeg.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "217",
+    "lastpage": "229",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/5/7",
+    "received": "01 December 2023",
+    "revised": "",
+    "accepted": "24 April 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0217-5",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-024-0217-5.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Space Environment and Space Debris",
+      "Attitude Determination and Space Manipulation",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0255-z",
+    "title": "Reduced-order uncertainty propagation for heliocentric gravitational wave observatories using semi-analytical sensitive directions",
+    "authors": [
+      {
+        "name": "Xingyu Zhou"
+      },
+      {
+        "name": "Chen Cheng"
+      },
+      {
+        "name": "Zhe Zhang"
+      },
+      {
+        "name": "Xiangyu Li"
+      }
+    ],
+    "affiliations": [
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. Key Laboratory of Autonomous Navigation and Control for Deep Space Exploration,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. Key Laboratory of Autonomous Navigation and Control for Deep Space Exploration,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. Key Laboratory of Autonomous Navigation and Control for Deep Space Exploration,CHINA. Beijing Institute of Technology, 100081,CHINA. ",
+      "School of Aerospace Engineering,CHINA. Beijing Institute of Technology, 100081,CHINA. Key Laboratory of Autonomous Navigation and Control for Deep Space Exploration,CHINA. Beijing Institute of Technology, 100081,CHINA. "
+    ],
+    "keywords": [
+      "space-based gravitational wave observatory",
+      "configuration uncertainty propagation",
+      "perturbation-averaging technique",
+      "analytical orbit propagation method",
+      "Laser Interferometer Space Antenna (LISA)"
+    ],
+    "abstract": "Orbit insertion uncertainties can significantly affect the configuration stability of heliocentric gravitational wave (GW) observatories, necessitating valid configuration uncertainty propagation techniques. Current configuration uncertainty propagation methods suffer from drawbacks related to their high computational complexity. To this end, this study proposes a novel configuration uncertainty propagation method for heliocentric GW observatories to reduce the computational complexity. First, the angular momentum and phase angle were found to be the two core variables for the orbit propagation of heliocentric GW observatories, the analytical solutions of which were derived using a perturbation-averaging technique. Subsequently, a first-order sensitivity matrix of the configuration stability index with respect to the initial states was derived based on the analytical solutions of the angular momentum and phase angle. Semi-analytically sensitive directions were obtained based on the derived sensitivity matrix, which was further employed to reduce the terms of configuration uncertainty propagation. The performance of the proposed method was validated using the example of a Laser Interferometer Space Antenna (LISA) project by comparing it with several competitive methods. The numerical results show that the proposed reduced-order method has a relative error close to that of the conventional full-state method and reduces the computational complexity by more than 46.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "671",
+    "lastpage": "688",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "09 July 2024",
+    "revised": "",
+    "accepted": "21 November 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0255-z",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-024-0255-z.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Space Systems and Engineering"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-024-0220-x",
+    "title": "Design of halo orbit constellation for lunar global positioning and communication services",
+    "authors": [
+      {
+        "name": "Mariano Conti"
+      },
+      {
+        "name": "Christian Circi"
+      }
+    ],
+    "affiliations": [
+      "Department of Astronautical, Electrical and Energy Engineering,ITALY. Sapienza University of Rome, 00184,ITALY. ",
+      "Department of Astronautical, Electrical and Energy Engineering,ITALY. Sapienza University of Rome, 00184,ITALY. "
+    ],
+    "keywords": [
+      "halo orbits",
+      "stable halo orbits",
+      "lunar navigation",
+      "constellation",
+      "Earth–Moon system"
+    ],
+    "abstract": "A lunar global positioning–navigation–timing (PNT) and communication system can greatly support the exploration and exploitation of the Moon. In this study, the application of the stable orbits of the L 1 and L 2 halo families and the unstable orbits of L 3 in the Earth–Moon system is analyzed, and a design is proposed. L 3 halo orbits are considered for a continuous line-of-sight satellite infrastructure for the Earth–Moon communication, thereby providing an opportunity for ground stations on the Earth to participate in lunar missions even if they do not directly see the Moon. In this study, a constellation of 26 satellites distributed over a lunar segment, made of four halo orbits of L 1 and L 2 , and a terrestrial segment, made of two halo orbits of L 3 , is designed; this constellation facilitates global and continuative Earth–Moon communication and provides accurate and continuous lunar PNT service. According to a station-keeping analysis in the framework of the elliptical restricted three-body problem, the maintenance cost for approximately 60 d was 0.76 m/s for the lunar segment and 0.02 m/s for the terrestrial segment.",
+    "volume": 9,
+    "issue": 2,
+    "firstpage": "231",
+    "lastpage": "245",
+    "year": 2025,
+    "publication_date": "2025/4/1",
+    "online_date": "2025/5/7",
+    "received": "15 February 2024",
+    "revised": "",
+    "accepted": "12 May 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-024-0220-x",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-024-0220-x.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Mission Analysis and Constellation Design",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-025-0263-7",
+    "title": "Comprehensive classification of non-periodic relative motion styles of spacecraft: A geometric approach and applications",
+    "authors": [
+      {
+        "name": "Qinbo Sun"
+      },
+      {
+        "name": "Liran Zhao"
+      },
+      {
+        "name": "Zhaohui Dang"
+      }
+    ],
+    "affiliations": [
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,"
+    ],
+    "keywords": [
+      "relative orbital motion",
+      "non-periodic motion",
+      "motion configuration"
+    ],
+    "abstract": "The classification of periodic relative motion in spacecraft dynamics is well-established, yet non-periodic motion remains underexplored. This paper addresses this gap by proposing a comprehensive classification model based on relative orbital dynamics. The elements of relative motion are defined, leveraging the characteristics of relative orbital dynamics to enable a detailed analysis of motion patterns. The analysis is then conducted from two perspectives: the geometrical configuration of the trajectory and the positional relationship between the trajectory and the spacecraft. A total of 19 motion styles are classified, including 14 non-periodic types, 3 periodic types, and 2 degenerate fixed-point cases, with corresponding dynamic conditions identified. Two representative applications demonstrate the practical utility of the classification: rapid target approach using flyby styles and hovering observation using droplet styles. Numerical simulations validate the accuracy of the classification and its applicability to real-world orbital scenarios. These findings provide a valuable framework for on-orbit services, such as formation flying, rendezvous, and orbital maintenance.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "969",
+    "lastpage": "992",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "15 October 2024",
+    "revised": "",
+    "accepted": "08 January 2025",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-025-0263-7",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-025-0263-7.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Orbital Dynamics and Trajectory Optimization",
+      "Space Systems and Engineering",
+      "Guidance, Navigation, and Control"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-025-0262-8",
+    "title": "Intelligent strategy resolution methods and mechanism analysis in two-on-one impulsive orbital pursuit–evasion games",
+    "authors": [
+      {
+        "name": "Liran Zhao"
+      },
+      {
+        "name": "Qinbo Sun"
+      },
+      {
+        "name": "Zhaohui Dang"
+      }
+    ],
+    "affiliations": [
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,"
+    ],
+    "keywords": [
+      "two-pursuers one-evader",
+      "orbital pursuit–evasion game (OPEG)",
+      "impulsive maneuver",
+      "multi-agent deep reinforcement learning"
+    ],
+    "abstract": "This paper conducts a comprehensive study on the multi-constrained two-on-one impulsive orbital pursuit–evasion game (OPEG). Firstly, considering constraints such as maneuverability, fuel reserves, and mission duration, a mathematical game model for the two-on-one impulsive OPEG is established, which transforms the two-on-one impulsive OPEG, where cooperation and competition coexist, into a multi-constrained three-party optimization problem suitable for solving with multi-agent deep reinforcement learning. Then, an intelligent solution method for cooperative game strategies based on the Multi-Agent Deep Deterministic Policy Gradient (MADDPG) algorithm is proposed. In the reward function design section, a reward function based on fixed-time triggering is introduced to address the information loss problem caused by long impulse intervals. To ensure good convergence of the algorithm and guide the spacecraft to learn effective cooperative strategies during training, an immediate reward function is designed, incorporating outcome rewards, guidance rewards, and cooperative rewards. Numerical simulations validate the feasibility and effectiveness of the proposed method. To further analyze the cooperative mechanisms learned by the spacecraft during algorithm training, a comparative experiment with the one-on-one impulsive OPEG is designed. The experimental results demonstrate that the two pursuers in the two-on-one impulsive OPEG not only develop various strategies such as “pre-emptive interception”, “pincer interception”, and “trailing pursuit” during training, but also improve mission success rates and reduce mission durations through coordinated efforts. Additionally, this paper reveals the impact of the relative initial state distribution between the two pursuing spacecraft and the evading spacecraft on the effectiveness of cooperation.",
+    "volume": 9,
+    "issue": 5,
+    "firstpage": "727",
+    "lastpage": "751",
+    "year": 2025,
+    "publication_date": "2025/10/1",
+    "online_date": "2025/10/31",
+    "received": "30 July 2024",
+    "revised": "",
+    "accepted": "29 December 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-025-0262-8",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-025-0262-8.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Guidance, Navigation, and Control",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Advanced Concepts and Space Intelligence"
+    ]
+  },
+  {
+    "doi": "10.1007/s42064-025-0261-9",
+    "title": "Analysis of the optimal transfer time under uncertainty of regular structure asteroids",
+    "authors": [
+      {
+        "name": "Zhongyu Xu"
+      },
+      {
+        "name": "Wenjie Ai"
+      },
+      {
+        "name": "Minghu Tan"
+      },
+      {
+        "name": "Bingbing Ma"
+      }
+    ],
+    "affiliations": [
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,",
+      "School of Astronautics, Northwestern Polytechnical University,"
+    ],
+    "keywords": [
+      "uncertainty",
+      "optimal transfer time",
+      "uncertainty propagation",
+      "Monte Carlo",
+      "deflection expectation"
+    ],
+    "abstract": "This paper presents a methodology for determining the optimal transfer time in a kinetic impact defense strategy under uncertainties. Leveraging existing research, the paper first analyses the optimal deflection without considering uncertainty. It is then followed by an uncertainty-related analysis on the basis of the results. By mapping the angular parameters of the impact location, an uncertainty model is established and analytically propagated to the deflection model. The derivation of uncertainty propagation is verified with Monte Carlo simulation methods. Subsequently, the analytical expression for the deflection expectation under uncertainty is derived, and the optimal transfer time under uncertainty is investigated. The numerical results indicate that the research method proposed in this paper is effective, offering a robust approach for analyzing deflection missions under practical conditions.",
+    "volume": 9,
+    "issue": 6,
+    "firstpage": "953",
+    "lastpage": "968",
+    "year": 2025,
+    "publication_date": "2025/12/1",
+    "online_date": "2025/11/17",
+    "received": "29 July 2024",
+    "revised": "",
+    "accepted": "28 December 2024",
+    "published": "",
+    "type": "Research Article",
+    "url": "https://www.sciopen.com/article/10.1007/s42064-025-0261-9",
+    "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-025-0261-9.pdf",
+    "publisher": "清华大学出版社",
+    "issn": "2522-008X",
+    "research_area": [
+      "Advanced Concepts and Space Intelligence",
+      "Orbital Dynamics and Trajectory Optimization",
+      "Space Systems and Engineering"
+    ]
+  }
+]
