@@ -5565,7 +5565,7 @@
     "accepted": "13 January 2026",
     "published": "",
     "type": "Research Article",
-    "url": "https://www.sciopen.com/article/10.1007/s42064-026-0302-z",
+    "url": "https://doi.org/10.1007/s42064-026-0302-z",
     "pdf": "https://www.sciopen.com/article_pdf/10.1007/s42064-026-0302-z.pdf",
     "publisher": "清华大学出版社",
     "issn": "2522-008X",
@@ -5573,7 +5573,8 @@
       "Orbital Dynamics and Trajectory Optimization",
       "Guidance, Navigation, and Control",
       "Attitude Determination and Space Manipulation"
-    ]
+    ],
+    "doi_url": "https://doi.org/10.1007/s42064-026-0302-z"
   },
   {
     "doi": "10.1007/s42064-025-0289-x",
