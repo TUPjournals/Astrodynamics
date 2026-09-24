@@ -790,56 +790,20 @@ function generateBibTeX(a) {
   const year = a.year || '2026';
   const key = first_author + year;
   const authors_bib = (a.authors||[]).map(au => au.name || '').join(' and ');
-  let bib = '@article{' + key + ', ' + String.fromCharCode(13) + String.fromCharCode(10);
-  bib += 'author = {' + authors_bib + '},' + String.fromCharCode(13) + String.fromCharCode(10);
-  bib += 'title = {' + (a.title || '') + '},' + String.fromCharCode(13) + String.fromCharCode(10);
-  bib += 'year = {' + year + '},' + String.fromCharCode(13) + String.fromCharCode(10);
-  bib += 'journal = {Astrodynamics},' + String.fromCharCode(13) + String.fromCharCode(10);
-  if (a.volume) bib += 'volume = {' + a.volume + '},' + String.fromCharCode(13) + String.fromCharCode(10);
-  if (a.issue) bib += 'number = {' + a.issue + '},' + String.fromCharCode(13) + String.fromCharCode(10);
-  if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},' + String.fromCharCode(13) + String.fromCharCode(10);
-  if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},' + String.fromCharCode(13) + String.fromCharCode(10);
+  let bib = '@article{' + key + ', \r\n';
+  bib += 'author = {' + authors_bib + '},\r\n';
+  bib += 'title = {' + (a.title || '') + '},\r\n';
+  bib += 'year = {' + year + '},\r\n';
+  bib += 'journal = {Astrodynamics},\r\n';
+  if (a.volume) bib += 'volume = {' + a.volume + '},\r\n';
+  if (a.issue) bib += 'number = {' + a.issue + '},\r\n';
+  if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},\r\n';
+  if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},\r\n';
   if (a.doi) {
-    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},' + String.fromCharCode(13) + String.fromCharCode(10);
-    bib += 'doi = {' + a.doi + '},' + String.fromCharCode(13) + String.fromCharCode(10);
+    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},\r\n';
+    bib += 'doi = {' + a.doi + '},\r\n';
   }
-  if (a.abstract) bib += 'abstract = {' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() + '},' + String.fromCharCode(13) + String.fromCharCode(10);
-  bib += '}';
-},
-
-';
-  bib += 'title = {' + (a.title || '') + '},
-
-';
-  bib += 'year = {' + year + '},
-
-';
-  bib += 'journal = {Astrodynamics},
-
-';
-  if (a.volume) bib += 'volume = {' + a.volume + '},
-
-';
-  if (a.issue) bib += 'number = {' + a.issue + '},
-
-';
-  if (a.firstpage && a.lastpage) bib += 'pages = {' + a.firstpage + '-' + a.lastpage + '},
-
-';
-  if (a.keywords && a.keywords.length) bib += 'keywords = {' + a.keywords.join(', ') + '},
-
-';
-  if (a.doi) {
-    bib += 'url = {https://www.sciopen.com/article/' + a.doi + '},
-
-';
-    bib += 'doi = {' + a.doi + '},
-
-';
-  }
-  if (a.abstract) bib += 'abstract = {' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() + '},
-
-';
+  if (a.abstract) bib += 'abstract = {' + a.abstract.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() + '},\r\n';
   bib += '}';
   return bib;
 }
