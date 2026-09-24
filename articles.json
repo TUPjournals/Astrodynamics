@@ -4865,60 +4865,6 @@
     "doi_url": "https://doi.org/10.1007/s42064-023-0184-2"
   },
   {
-    "doi": "10.1007/s42064-025-0296-y",
-    "title": "Correction to: Robust twistor-based spacecraft relative pose estimation using unscented Kalman filter",
-    "authors": [
-      {
-        "name": "Mohammed Atallah"
-      },
-      {
-        "name": "Mohamed Okasha"
-      },
-      {
-        "name": "Ossama Abdelkhalik"
-      },
-      {
-        "name": "Tarek N. Dief"
-      }
-    ],
-    "affiliations": [
-      "Department of Aerospace Engineering,Iowa State University, 50011,Department of Mechanical and Aerospace Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. ",
-      "Department of Mechanical and Aerospace Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. ",
-      "Department of Aerospace Engineering,Iowa State University, 50011,",
-      "Department of Mechanical and Aerospace Engineering,UNITED ARAB EMIRATES. United Arab Emirates University,UNITED ARAB EMIRATES. "
-    ],
-    "keywords": [
-      "twistor",
-      "spacecraft relative navigation",
-      "unscented Kalman filter (UKF)",
-      "stirling interpolation formula (SIF)",
-      "state noise compensation (SNC)"
-    ],
-    "abstract": "",
-    "volume": 9,
-    "issue": 6,
-    "firstpage": "1015",
-    "lastpage": "1015",
-    "year": 2025,
-    "publication_date": "2025/12/1",
-    "online_date": "2025/11/17",
-    "received": "",
-    "revised": "",
-    "accepted": "",
-    "published": "",
-    "type": "Erratum",
-    "url": "https://www.sciopen.com/article/10.1007/s42064-025-0296-y",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-025-0296-y.pdf",
-    "publisher": "清华大学出版社",
-    "issn": "2522-008X",
-    "research_area": [
-      "Attitude Determination and Space Manipulation",
-      "Space Systems and Engineering",
-      "Guidance, Navigation, and Control"
-    ],
-    "doi_url": "https://doi.org/10.1007/s42064-025-0296-y"
-  },
-  {
     "doi": "10.1007/s42064-024-0199-3",
     "title": "Sustainable Asteroid Mining: On the design of GTOC12 problem and summary of results",
     "authors": [
@@ -6274,60 +6220,6 @@
       "Space Systems and Engineering"
     ],
     "doi_url": "https://doi.org/10.1007/s42064-025-0299-8"
-  },
-  {
-    "doi": "10.1007/s42064-026-0314-8",
-    "title": "Erratum to: Analysis of the optimal transfer time under uncertainty of regular structure asteroids",
-    "authors": [
-      {
-        "name": "Zhongyu Xu"
-      },
-      {
-        "name": "Wenjie Ai"
-      },
-      {
-        "name": "Minghu Tan"
-      },
-      {
-        "name": "Bingbing Ma"
-      }
-    ],
-    "affiliations": [
-      "School of Astronautics, Northwestern Polytechnical University,",
-      "School of Astronautics, Northwestern Polytechnical University,",
-      "School of Astronautics, Northwestern Polytechnical University,",
-      "School of Astronautics, Northwestern Polytechnical University,"
-    ],
-    "keywords": [
-      "uncertainty",
-      "optimal transfer time",
-      "uncertainty propagation",
-      "Monte Carlo",
-      "deflection expectation"
-    ],
-    "abstract": "",
-    "volume": 10,
-    "issue": 4,
-    "firstpage": "705",
-    "lastpage": "705",
-    "year": 2026,
-    "publication_date": "2026/8/1",
-    "online_date": "2026/8/14",
-    "received": "",
-    "revised": "",
-    "accepted": "",
-    "published": "",
-    "type": "Erratum",
-    "url": "https://www.sciopen.com/article/10.1007/s42064-026-0314-8",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.1007/s42064-026-0314-8.pdf",
-    "publisher": "清华大学出版社",
-    "issn": "2522-008X",
-    "research_area": [
-      "Advanced Concepts and Space Intelligence",
-      "Orbital Dynamics and Trajectory Optimization",
-      "Space Systems and Engineering"
-    ],
-    "doi_url": "https://doi.org/10.1007/s42064-026-0314-8"
   },
   {
     "doi": "10.1007/s42064-025-0264-6",
